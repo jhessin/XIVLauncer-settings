@@ -1,0 +1,15 @@
+{
+  "$type": "Dalamud.RichPresence.Configuration.RichPresenceConfig, Dalamud.RichPresence",
+  "ShowLoginQueuePosition": true,
+  "ShowName": true,
+  "ShowFreeCompany": true,
+  "ShowWorld": true,
+  "ShowStartTime": false,
+  "ResetTimeWhenChangingZones": true,
+  "ShowJob": true,
+  "AbbreviateJob": true,
+  "ShowLevel": true,
+  "ShowParty": true,
+  "ShowAfk": true,
+  "Version": 1
+}

@@ -1,0 +1,9 @@
+{
+  "ShowHP": true,
+  "IgnoreParty": false,
+  "IgnoreAlliance": false,
+  "IgnoreFriends": false,
+  "IgnoreDead": false,
+  "IgnoreTargets": true,
+  "Version": 1
+}

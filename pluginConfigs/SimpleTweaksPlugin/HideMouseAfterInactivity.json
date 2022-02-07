@@ -1,0 +1,8 @@
+{
+  "InactiveSeconds": 3.0,
+  "NoHideInCutscenes": false,
+  "NoHideInCombat": false,
+  "NoHideInInstance": false,
+  "NoHideWhileHovering": false,
+  "Version": 1
+}

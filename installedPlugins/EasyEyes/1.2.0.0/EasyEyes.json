@@ -1,0 +1,37 @@
+{
+  "Disabled": false,
+  "Testing": false,
+  "InstalledFromUrl": null,
+  "IsThirdParty": false,
+  "Author": "ocealot",
+  "Name": "EasyEyes",
+  "Punchline": "Hide annoying or distracting VFXs",
+  "Description": "A plugin which can hide any VFX. Icon by PAPACHIN",
+  "Changelog": null,
+  "Tags": [
+    "VFX",
+    "AVFX"
+  ],
+  "CategoryTags": [
+    "UI"
+  ],
+  "IsHide": false,
+  "InternalName": "EasyEyes",
+  "AssemblyVersion": "1.2.0.0",
+  "TestingAssemblyVersion": null,
+  "IsTestingExclusive": false,
+  "RepoUrl": "https://github.com/0ceal0t/EasyEyes",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 5,
+  "DownloadCount": 12525,
+  "LastUpdate": 1639204156,
+  "DownloadLinkInstall": "https://us-central1-xl-functions.cloudfunctions.net/download-plugin/?plugin=EasyEyes&isUpdate=False&isTesting=False&branch=api5",
+  "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api5/plugins/EasyEyes/latest.zip",
+  "DownloadLinkTesting": "https://us-central1-xl-functions.cloudfunctions.net/download-plugin/?plugin=EasyEyes&isUpdate=False&isTesting=True&branch=api5",
+  "LoadPriority": 69419,
+  "ImageUrls": null,
+  "IconUrl": null,
+  "AcceptsFeedback": true,
+  "FeedbackMessage": null,
+  "FeedbackWebhook": null
+}

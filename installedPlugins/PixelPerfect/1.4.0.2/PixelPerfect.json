@@ -1,0 +1,41 @@
+{
+  "Disabled": false,
+  "Testing": false,
+  "InstalledFromUrl": null,
+  "IsThirdParty": false,
+  "Author": "Haplo064",
+  "Name": "Pixel Perfect",
+  "Punchline": "Reveals your hitbox, and an optional ring.",
+  "Description": "Showing exactly where to stand since 2020.",
+  "Changelog": "Updated for Endwalker.",
+  "Tags": [
+    "Hitbox",
+    "Overlay",
+    "Indicator"
+  ],
+  "CategoryTags": [
+    "UI"
+  ],
+  "IsHide": false,
+  "InternalName": "PixelPerfect",
+  "AssemblyVersion": "1.4.0.2",
+  "TestingAssemblyVersion": null,
+  "IsTestingExclusive": false,
+  "RepoUrl": "https://github.com/Haplo064/PixelPerfect",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 5,
+  "DownloadCount": 79343,
+  "LastUpdate": 1639273417,
+  "DownloadLinkInstall": "https://us-central1-xl-functions.cloudfunctions.net/download-plugin/?plugin=PixelPerfect&isUpdate=False&isTesting=False&branch=api5",
+  "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api5/plugins/PixelPerfect/latest.zip",
+  "DownloadLinkTesting": "https://us-central1-xl-functions.cloudfunctions.net/download-plugin/?plugin=PixelPerfect&isUpdate=False&isTesting=True&branch=api5",
+  "LoadPriority": 0,
+  "ImageUrls": [
+    "https://raw.githubusercontent.com/Haplo064/PixelPerfect/master/images/image1.png",
+    "https://raw.githubusercontent.com/Haplo064/PixelPerfect/master/images/image2.png"
+  ],
+  "IconUrl": "https://raw.githubusercontent.com/Haplo064/PixelPerfect/master/images/icon.png",
+  "AcceptsFeedback": true,
+  "FeedbackMessage": null,
+  "FeedbackWebhook": null
+}

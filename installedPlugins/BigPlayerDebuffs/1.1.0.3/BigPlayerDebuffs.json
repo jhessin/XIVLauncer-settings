@@ -1,0 +1,37 @@
+{
+  "Disabled": false,
+  "Testing": false,
+  "InstalledFromUrl": null,
+  "IsThirdParty": false,
+  "Author": "d87",
+  "Name": "BigPlayerDebuffs",
+  "Punchline": null,
+  "Description": "Scales up buffs/debuffs applied by you on Target Status frames",
+  "Changelog": null,
+  "Tags": null,
+  "CategoryTags": [
+    "UI",
+    "jobs"
+  ],
+  "IsHide": false,
+  "InternalName": "BigPlayerDebuffs",
+  "AssemblyVersion": "1.1.0.3",
+  "TestingAssemblyVersion": null,
+  "IsTestingExclusive": false,
+  "RepoUrl": "https://github.com/rgd87/BigPlayerDebuffs",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 5,
+  "DownloadCount": 0,
+  "LastUpdate": 1639530678,
+  "DownloadLinkInstall": "https://us-central1-xl-functions.cloudfunctions.net/download-plugin/?plugin=BigPlayerDebuffs&isUpdate=False&isTesting=False&branch=api5",
+  "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api5/plugins/BigPlayerDebuffs/latest.zip",
+  "DownloadLinkTesting": "https://us-central1-xl-functions.cloudfunctions.net/download-plugin/?plugin=BigPlayerDebuffs&isUpdate=False&isTesting=True&branch=api5",
+  "LoadPriority": 0,
+  "ImageUrls": [
+    "https://raw.githubusercontent.com/rgd87/BigPlayerDebuffs/master/images/image1.png"
+  ],
+  "IconUrl": "https://raw.githubusercontent.com/rgd87/BigPlayerDebuffs/master/images/icon.png",
+  "AcceptsFeedback": true,
+  "FeedbackMessage": null,
+  "FeedbackWebhook": null
+}

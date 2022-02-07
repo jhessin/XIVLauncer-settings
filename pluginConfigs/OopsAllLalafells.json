@@ -1,0 +1,6 @@
+{
+  "$type": "OopsAllLalafells.Configuration, OopsAllLalafells",
+  "Version": 1,
+  "ChangeOthersTargetRace": 3,
+  "ShouldChangeOthers": true
+}

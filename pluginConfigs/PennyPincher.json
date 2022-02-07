@@ -1,0 +1,11 @@
+{
+  "$type": "PennyPincher.Configuration, PennyPincher",
+  "Version": 1,
+  "alwaysOn": false,
+  "delta": 0,
+  "hq": true,
+  "min": 2,
+  "mod": 1,
+  "smart": true,
+  "verbose": true
+}

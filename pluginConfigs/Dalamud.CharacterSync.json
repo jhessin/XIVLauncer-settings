@@ -1,0 +1,15 @@
+{
+  "$type": "Dalamud.RichPresence.Config.CharacterSyncConfig, Dalamud.CharacterSync",
+  "IsEnabled": true,
+  "SyncHotbars": true,
+  "SyncMacro": true,
+  "SyncKeybind": true,
+  "SyncLogfilter": true,
+  "SyncCharSettings": true,
+  "SyncKeyboardSettings": true,
+  "SyncGamepadSettings": true,
+  "SyncCardSets": true,
+  "Cid": 18014498568406794,
+  "SetName": "Grillbrick Taylor on Ultros",
+  "Version": 0
+}

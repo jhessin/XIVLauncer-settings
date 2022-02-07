@@ -1,0 +1,80 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "MarketBoardPlugin/0.5.3.0": {
+        "dependencies": {
+          "DalamudPackager": "2.1.5",
+          "MSBuildGitHash": "2.0.2",
+          "StyleCop.Analyzers": "1.2.0-beta.376",
+          "XivCommon": "4.0.0-alpha.2"
+        },
+        "runtime": {
+          "MarketBoardPlugin.dll": {}
+        }
+      },
+      "DalamudPackager/2.1.5": {},
+      "MSBuildGitHash/2.0.2": {},
+      "StyleCop.Analyzers/1.2.0-beta.376": {
+        "dependencies": {
+          "StyleCop.Analyzers.Unstable": "1.2.0.376"
+        }
+      },
+      "StyleCop.Analyzers.Unstable/1.2.0.376": {},
+      "XivCommon/4.0.0-alpha.2": {
+        "runtime": {
+          "lib/net5.0-windows7.0/XivCommon.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MarketBoardPlugin/0.5.3.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DalamudPackager/2.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0RMHom/TbYxWzJPTdMOPjuelZY2aacWipp0INPkQrLa31Wy1KAWZ/R/+2sdi02vhk15PthZcpUQqVIwcxprG8A==",
+      "path": "dalamudpackager/2.1.5",
+      "hashPath": "dalamudpackager.2.1.5.nupkg.sha512"
+    },
+    "MSBuildGitHash/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1gA7vw5Wc4w6/H2IDVFx69LGQndIyTSsBOTL1BO1lAjzyWl6LUi24gtST8Bh5yd/793patMZyO7Ym4Kg19p+VA==",
+      "path": "msbuildgithash/2.0.2",
+      "hashPath": "msbuildgithash.2.0.2.nupkg.sha512"
+    },
+    "StyleCop.Analyzers/1.2.0-beta.376": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uaaVoOYWfIMoWtZsNJwV0m/GI3XAi8BA71e9iBOFDPo3TtAmcGkZ2qcxItkWb6eKI90urOPmxc35BnuhluC1IA==",
+      "path": "stylecop.analyzers/1.2.0-beta.376",
+      "hashPath": "stylecop.analyzers.1.2.0-beta.376.nupkg.sha512"
+    },
+    "StyleCop.Analyzers.Unstable/1.2.0.376": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a009jDRd7zP6h+jenZ7nGjqkkFkEuxmT9FeM334cLDwodfU2x/nNcsFqw2Pjd4wVPiyX+qjLq+vhhbE3OPzFMw==",
+      "path": "stylecop.analyzers.unstable/1.2.0.376",
+      "hashPath": "stylecop.analyzers.unstable.1.2.0.376.nupkg.sha512"
+    },
+    "XivCommon/4.0.0-alpha.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ugdPMg3LKEWDY3DvdcfctjDW8QTaRnXfKJ9gFlY8036LVQ6guOG3grG65EIkIKIhbyg3b2E2ZWOhgeLYEcS00w==",
+      "path": "xivcommon/4.0.0-alpha.2",
+      "hashPath": "xivcommon.4.0.0-alpha.2.nupkg.sha512"
+    }
+  }
+}

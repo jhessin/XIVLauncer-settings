@@ -1,0 +1,9 @@
+XIVLauncher
+addon
+dalamudAssets
+runtime
+*.log
+*.log.old
+integrityreport.txt
+accountsList.json
+pluginConfigs/Dalamud.DiscordBridge.json

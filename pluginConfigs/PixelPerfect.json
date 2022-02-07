@@ -1,0 +1,33 @@
+{
+  "$type": "PixelPerfect.Config, PixelPerfect",
+  "Version": 0,
+  "Enabled": true,
+  "Combat": true,
+  "Circle": false,
+  "Instance": false,
+  "Col": {
+    "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+    "X": 0.45564514,
+    "Y": 0.0018372771,
+    "Z": 0.0018372771,
+    "W": 1.0
+  },
+  "Col2": {
+    "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+    "X": 0.9919355,
+    "Y": 0.0119992085,
+    "Z": 0.0119992085,
+    "W": 1.0
+  },
+  "ColRing": {
+    "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+    "X": 0.4,
+    "Y": 0.4,
+    "Z": 0.4,
+    "W": 0.5
+  },
+  "Segments": 100,
+  "Thickness": 10.0,
+  "Ring": false,
+  "Radius": 12.0
+}

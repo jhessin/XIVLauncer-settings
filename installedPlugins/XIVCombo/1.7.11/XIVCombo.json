@@ -1,0 +1,36 @@
+{
+  "Disabled": false,
+  "Testing": false,
+  "InstalledFromUrl": null,
+  "IsThirdParty": false,
+  "Author": "attick",
+  "Name": "XIV Combo Plugin",
+  "Punchline": "PvP, but in PvE.",
+  "Description": "This plugin condenses combos and mutually exclusive abilities onto a single button. /pcombo to open menu",
+  "Changelog": null,
+  "Tags": [
+    "Combo"
+  ],
+  "CategoryTags": [
+    "jobs"
+  ],
+  "IsHide": false,
+  "InternalName": "XIVCombo",
+  "AssemblyVersion": "1.7.11",
+  "TestingAssemblyVersion": null,
+  "IsTestingExclusive": false,
+  "RepoUrl": "https://github.com/attickdoor/XivComboPlugin",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 5,
+  "DownloadCount": 121584,
+  "LastUpdate": 1641772079,
+  "DownloadLinkInstall": "https://us-central1-xl-functions.cloudfunctions.net/download-plugin/?plugin=XIVCombo&isUpdate=False&isTesting=False&branch=api5",
+  "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api5/plugins/XIVCombo/latest.zip",
+  "DownloadLinkTesting": "https://us-central1-xl-functions.cloudfunctions.net/download-plugin/?plugin=XIVCombo&isUpdate=False&isTesting=True&branch=api5",
+  "LoadPriority": 0,
+  "ImageUrls": null,
+  "IconUrl": null,
+  "AcceptsFeedback": false,
+  "FeedbackMessage": null,
+  "FeedbackWebhook": null
+}

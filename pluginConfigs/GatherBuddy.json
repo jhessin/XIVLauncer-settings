@@ -1,0 +1,94 @@
+{
+  "$type": "GatherBuddy.GatherBuddyConfiguration, GatherBuddy",
+  "BotanistSetName": "BTN",
+  "MinerSetName": "MIN",
+  "FisherSetName": "FSH",
+  "IdentifiedItemFormat": "Identified [{Id}: {Name}] for \"{Input}\".",
+  "IdentifiedFishFormat": "Identified [{Id}: {Name}] for \"{Input}\".",
+  "IdentifiedFishingSpotFormat": "Chose fishing spot {Name} for {FishName}.",
+  "NodeAlarmFormat": "[GatherBuddy][Alarm {Name}]: The gathering node for {AllItems} {DelayString} at {Location}.",
+  "FishAlarmFormat": "[GatherBuddy][Alarm {Name}]: The fish {FishName} at {FishingSpotName} {DelayString}. Catch with {BaitName}.",
+  "Version": 3,
+  "ShowNodes": 31,
+  "OpenOnStart": false,
+  "UseGearChange": true,
+  "UseTeleport": true,
+  "UseCoordinates": true,
+  "WriteCoordinates": true,
+  "AlarmsEnabled": true,
+  "PrintUptime": true,
+  "PrintGigHead": true,
+  "ShowFishTimer": true,
+  "FishTimerEdit": false,
+  "HideUncaughtFish": false,
+  "HideUnavailableFish": true,
+  "ShowWindowTimers": true,
+  "ShowAlreadyCaught": true,
+  "ShowBigFish": true,
+  "ShowSmallFish": true,
+  "ShowSpearFish": true,
+  "ShowAlwaysUp": true,
+  "ShowFishFromPatch": 1,
+  "AvailableFishColor": {
+    "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+    "X": 0.0,
+    "Y": 0.75,
+    "Z": 0.0,
+    "W": 1.0
+  },
+  "UpcomingFishColor": {
+    "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+    "X": 0.75,
+    "Y": 0.75,
+    "Z": 0.0,
+    "W": 1.0
+  },
+  "DependentAvailableFishColor": {
+    "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+    "X": 0.0,
+    "Y": 0.4,
+    "Z": 0.8,
+    "W": 1.0
+  },
+  "DependentUpcomingFishColor": {
+    "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+    "X": 0.6,
+    "Y": 0.0,
+    "Z": 0.8,
+    "W": 1.0
+  },
+  "Alarms": [
+    {
+      "$type": "GatherBuddy.Classes.Alarm, GatherBuddy",
+      "Name": "Darksteel Ore",
+      "Id": 222,
+      "MinuteOffset": 0,
+      "Type": "Node",
+      "SoundId": 42,
+      "Enabled": true,
+      "PrintMessage": true
+    },
+    {
+      "$type": "GatherBuddy.Classes.Alarm, GatherBuddy",
+      "Name": "Fragrant Log",
+      "Id": 242,
+      "MinuteOffset": 0,
+      "Type": "Node",
+      "SoundId": 42,
+      "Enabled": false,
+      "PrintMessage": true
+    },
+    {
+      "$type": "GatherBuddy.Classes.Alarm, GatherBuddy",
+      "Name": "Astral Rock",
+      "Id": 225,
+      "MinuteOffset": 0,
+      "Type": "Node",
+      "SoundId": 42,
+      "Enabled": false,
+      "PrintMessage": true
+    }
+  ],
+  "FixedFish": [],
+  "FishSortOder": 3
+}

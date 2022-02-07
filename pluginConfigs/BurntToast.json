@@ -1,0 +1,11 @@
+{
+  "$type": "BurntToast.Configuration, BurntToast",
+  "Version": 1,
+  "Patterns": [
+    {
+      "Pattern": ".*",
+      "Options": 8
+    }
+  ],
+  "BattleTalkPatterns": []
+}

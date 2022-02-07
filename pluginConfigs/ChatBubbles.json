@@ -1,0 +1,217 @@
+{
+  "$type": "ChatBubbles.Config, ChatBubbles",
+  "Version": 0,
+  "Channels": [
+    10,
+    10,
+    14,
+    24,
+    12,
+    13,
+    15,
+    11,
+    28,
+    30
+  ],
+  "Timer": 7,
+  "BubbleFunctionality": 1,
+  "Hide": false,
+  "TextColour": [
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 679626495,
+      "Option": 46
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 3019899135,
+      "Option": 545
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 1502674943,
+      "Option": 553
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 1287585791,
+      "Option": 57
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 1073783039,
+      "Option": 538
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 1934954495,
+      "Option": 29
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 171514111,
+      "Option": 47
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 2690121983,
+      "Option": 536
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 3690987775,
+      "Option": 17
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    },
+    {
+      "$type": "ChatBubbles.UiColorPick, ChatBubbles",
+      "Choice": 0,
+      "Option": 0
+    }
+  ],
+  "Queue": 3
+}

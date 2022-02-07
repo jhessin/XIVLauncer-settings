@@ -1,0 +1,14 @@
+{
+  "ShowET": true,
+  "ShowLT": true,
+  "ShowST": true,
+  "CustomFormatET": "hh:mm:ss tt",
+  "CustomFormatLT": "hh:mm:ss tt",
+  "CustomFormatST": "hh:mm:ss tt",
+  "Order": [
+    1,
+    0,
+    2
+  ],
+  "Version": 1
+}

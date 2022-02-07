@@ -1,0 +1,12 @@
+{
+  "$type": "EasyEyes.Configuration, EasyEyes",
+  "Items": [
+    {
+      "$type": "EasyEyes.SavedItem, EasyEyes",
+      "AVFXPath": "vfx/pc_common/pc_rol027/eff/pc_rol027c0c.avfx",
+      "Notes": "",
+      "Disabled": true
+    }
+  ],
+  "Version": 0
+}

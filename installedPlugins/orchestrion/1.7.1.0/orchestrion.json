@@ -1,0 +1,37 @@
+{
+  "Disabled": false,
+  "Testing": false,
+  "InstalledFromUrl": null,
+  "IsThirdParty": false,
+  "Author": "Meli & perchbird",
+  "Name": "Orchestrion",
+  "Punchline": "Adds a simple front-end for browsing and changing the in-game BGM.",
+  "Description": "Orchestrion Plugin allows you to change the currently playing in-game BGM. It includes\na curated list of the most accurate in-game song titles, so you know exactly what's playing,\nif you want to know later! Add favorite songs to separate them from the rest.\nNote: This plugin does not currently allow you to play actual orchestrion songs.",
+  "Changelog": null,
+  "Tags": [
+    "bgm",
+    "music"
+  ],
+  "CategoryTags": [
+    "sound"
+  ],
+  "IsHide": false,
+  "InternalName": "orchestrion",
+  "AssemblyVersion": "1.7.1.0",
+  "TestingAssemblyVersion": null,
+  "IsTestingExclusive": false,
+  "RepoUrl": "https://github.com/lmcintyre/OrchestrionPlugin",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 5,
+  "DownloadCount": 74164,
+  "LastUpdate": 1643664752,
+  "DownloadLinkInstall": "https://kamori.goats.dev/Plugin/Download/orchestrion?isUpdate=False&isTesting=False&branch=api5",
+  "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api5/plugins/orchestrion/latest.zip",
+  "DownloadLinkTesting": "https://kamori.goats.dev/Plugin/Download/orchestrion?isUpdate=False&isTesting=True&branch=api5",
+  "LoadPriority": 0,
+  "ImageUrls": null,
+  "IconUrl": null,
+  "AcceptsFeedback": true,
+  "FeedbackMessage": null,
+  "FeedbackWebhook": null
+}

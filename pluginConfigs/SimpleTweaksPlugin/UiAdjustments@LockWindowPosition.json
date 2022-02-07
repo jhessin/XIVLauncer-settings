@@ -1,0 +1,13 @@
+{
+  "LockedWindows": [
+    "ArmouryBoard",
+    "GearSetList",
+    "Inventory",
+    "InventoryBuddy",
+    "RetainerSellList",
+    "InventoryRetainer",
+    "Gathering",
+    "Synthesis"
+  ],
+  "Version": 1
+}

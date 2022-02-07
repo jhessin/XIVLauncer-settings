@@ -1,0 +1,42 @@
+{
+  "$type": "TeleporterPlugin.Configuration, TeleporterPlugin",
+  "UseEnglish": true,
+  "AllowPartialName": true,
+  "AllowPartialAlias": false,
+  "ChatMessage": true,
+  "ChatError": true,
+  "EnableGrandCompany": true,
+  "GrandCompanyAlias": "gc",
+  "EnableEternityRing": false,
+  "EternityRingAlias": "ring",
+  "AliasList": [
+    {
+      "$type": "TeleporterPlugin.Plugin.TeleportAlias, TeleporterPlugin",
+      "Alias": "dona",
+      "Aetheryte": "Revenant's Toll",
+      "AetheryteId": 24,
+      "SubIndex": 0,
+      "Ward": 0,
+      "Plot": 0
+    },
+    {
+      "$type": "TeleporterPlugin.Plugin.TeleportAlias, TeleporterPlugin",
+      "Alias": "dh",
+      "Aetheryte": "Camp Dragonhead",
+      "AetheryteId": 23,
+      "SubIndex": 0,
+      "Ward": 0,
+      "Plot": 0
+    },
+    {
+      "$type": "TeleporterPlugin.Plugin.TeleportAlias, TeleporterPlugin",
+      "Alias": "home",
+      "Aetheryte": "Limsa Lominsa Lower Decks",
+      "AetheryteId": 8,
+      "SubIndex": 0,
+      "Ward": 0,
+      "Plot": 0
+    }
+  ],
+  "Version": 2
+}

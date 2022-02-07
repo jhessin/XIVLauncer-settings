@@ -1,0 +1,19 @@
+{
+  "$type": "SoundFilter.Config.Configuration, SoundFilter",
+  "Enabled": true,
+  "ShowLog": false,
+  "LogEnabled": false,
+  "LogFiltered": false,
+  "LogEntries": 20,
+  "Version": 2,
+  "Filters": [
+    {
+      "$type": "SoundFilter.Config.CustomFilter, SoundFilter",
+      "Name": "Error",
+      "Enabled": true,
+      "Globs": [
+        "sound/system/se_ui.scd/49"
+      ]
+    }
+  ]
+}

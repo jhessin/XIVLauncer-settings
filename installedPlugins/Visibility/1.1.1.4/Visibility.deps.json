@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Visibility/1.0.0": {
+        "dependencies": {
+          "DalamudPackager": "2.1.5",
+          "ILRepack": "2.1.0-beta1",
+          "XivCommon": "4.0.0-alpha.2"
+        },
+        "runtime": {
+          "Visibility.dll": {}
+        }
+      },
+      "DalamudPackager/2.1.5": {},
+      "ILRepack/2.1.0-beta1": {},
+      "XivCommon/4.0.0-alpha.2": {
+        "runtime": {
+          "lib/net5.0-windows7.0/XivCommon.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Visibility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DalamudPackager/2.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0RMHom/TbYxWzJPTdMOPjuelZY2aacWipp0INPkQrLa31Wy1KAWZ/R/+2sdi02vhk15PthZcpUQqVIwcxprG8A==",
+      "path": "dalamudpackager/2.1.5",
+      "hashPath": "dalamudpackager.2.1.5.nupkg.sha512"
+    },
+    "ILRepack/2.1.0-beta1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CUmDepugxfNKVMAsd1PzS8NSoyDfELsufDzwJ1+7D08bMAQbtHEQ9UVdjWjR3GBE0iPc0GvOhSJi0+xfFXwiRA==",
+      "path": "ilrepack/2.1.0-beta1",
+      "hashPath": "ilrepack.2.1.0-beta1.nupkg.sha512"
+    },
+    "XivCommon/4.0.0-alpha.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ugdPMg3LKEWDY3DvdcfctjDW8QTaRnXfKJ9gFlY8036LVQ6guOG3grG65EIkIKIhbyg3b2E2ZWOhgeLYEcS00w==",
+      "path": "xivcommon/4.0.0-alpha.2",
+      "hashPath": "xivcommon.4.0.0-alpha.2.nupkg.sha512"
+    }
+  }
+}

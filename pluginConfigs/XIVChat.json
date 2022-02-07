@@ -1,0 +1,27 @@
+{
+  "$type": "XIVChatPlugin.Configuration, XIVChat",
+  "Version": 1,
+  "Port": 14777,
+  "BacklogEnabled": true,
+  "BacklogCount": 100,
+  "SendBattle": true,
+  "MessagesCountAsInput": true,
+  "PairingMode": true,
+  "AcceptNewClients": true,
+  "AllowRelayConnections": false,
+  "RelayAuth": null,
+  "TrustedKeys": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Tuple`2[[System.String, System.Private.CoreLib],[System.Byte[], System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib"
+  },
+  "KeyPair": {
+    "$type": "Sodium.KeyPair, Sodium.Core",
+    "PublicKey": {
+      "$type": "System.Byte[], System.Private.CoreLib",
+      "$value": "fRHfF4hfzwmcoRaSMqKQiqizGp2TyfGBPcuYwY+7/Eo="
+    },
+    "PrivateKey": {
+      "$type": "System.Byte[], System.Private.CoreLib",
+      "$value": "2mTdFtZtCbQjdJMwm2pAkhHZAlBWF8S4tMImzdxN6QY="
+    }
+  }
+}

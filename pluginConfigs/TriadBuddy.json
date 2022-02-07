@@ -1,0 +1,328 @@
+{
+  "$type": "TriadBuddyPlugin.Configuration, TriadBuddy",
+  "Version": 0,
+  "ShowSolverHintsInGame": true,
+  "CanUseProfileReader": true,
+  "DeckOptimizerCPU": 0.71999997,
+  "CheckCardNpcMatchOnly": true,
+  "CheckCardNotOwnedOnly": true,
+  "CheckNpcHideBeaten": false,
+  "CheckNpcHideCompleted": false,
+  "NpcStats": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy]], System.Private.CoreLib",
+    "2293769": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "28": 1
+      },
+      "NumCoins": 281,
+      "NumWins": 8,
+      "NumDraws": 1,
+      "NumLosses": 1
+    },
+    "2293771": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "4": 1
+      },
+      "NumCoins": 10,
+      "NumWins": 1,
+      "NumDraws": 0,
+      "NumLosses": 0
+    },
+    "2293766": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "13": 1,
+        "27": 1
+      },
+      "NumCoins": 80,
+      "NumWins": 2,
+      "NumDraws": 1,
+      "NumLosses": 1
+    },
+    "2293763": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "20": 1,
+        "15": 1
+      },
+      "NumCoins": 170,
+      "NumWins": 7,
+      "NumDraws": 2,
+      "NumLosses": 0
+    },
+    "2293764": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "16": 5,
+        "8": 1
+      },
+      "NumCoins": 236,
+      "NumWins": 10,
+      "NumDraws": 2,
+      "NumLosses": 0
+    },
+    "2293767": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "12": 2,
+        "30": 1
+      },
+      "NumCoins": 96,
+      "NumWins": 3,
+      "NumDraws": 0,
+      "NumLosses": 0
+    },
+    "2293777": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "18": 1,
+        "29": 1
+      },
+      "NumCoins": 105,
+      "NumWins": 2,
+      "NumDraws": 0,
+      "NumLosses": 1
+    },
+    "2293762": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "37": 2,
+        "128": 2,
+        "2": 1
+      },
+      "NumCoins": 115,
+      "NumWins": 5,
+      "NumDraws": 0,
+      "NumLosses": 0
+    },
+    "2293820": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "154": 1
+      },
+      "NumCoins": 100,
+      "NumWins": 4,
+      "NumDraws": 0,
+      "NumLosses": 0
+    },
+    "2293821": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "158": 1
+      },
+      "NumCoins": 34,
+      "NumWins": 1,
+      "NumDraws": 0,
+      "NumLosses": 0
+    },
+    "2293787": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "48": 5,
+        "53": 3,
+        "43": 2,
+        "66": 1
+      },
+      "NumCoins": 2458,
+      "NumWins": 21,
+      "NumDraws": 3,
+      "NumLosses": 1
+    },
+    "2293768": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "8": 2,
+        "141": 1
+      },
+      "NumCoins": 224,
+      "NumWins": 6,
+      "NumDraws": 2,
+      "NumLosses": 0
+    },
+    "2293765": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "5": 3,
+        "9": 1
+      },
+      "NumCoins": 88,
+      "NumWins": 4,
+      "NumDraws": 0,
+      "NumLosses": 0
+    },
+    "2293770": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "36": 1
+      },
+      "NumCoins": 264,
+      "NumWins": 8,
+      "NumDraws": 0,
+      "NumLosses": 0
+    },
+    "2293778": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "25": 2,
+        "46": 1
+      },
+      "NumCoins": 192,
+      "NumWins": 4,
+      "NumDraws": 0,
+      "NumLosses": 0
+    },
+    "2293779": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "34": 4,
+        "22": 1
+      },
+      "NumCoins": 360,
+      "NumWins": 9,
+      "NumDraws": 0,
+      "NumLosses": 0
+    },
+    "2293788": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "113": 3,
+        "59": 1,
+        "40": 1,
+        "67": 1
+      },
+      "NumCoins": 498,
+      "NumWins": 9,
+      "NumDraws": 1,
+      "NumLosses": 0
+    },
+    "2293783": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "23": 1
+      },
+      "NumCoins": 295,
+      "NumWins": 5,
+      "NumDraws": 0,
+      "NumLosses": 0
+    },
+    "2293795": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "81": 1,
+        "131": 1
+      },
+      "NumCoins": 192,
+      "NumWins": 3,
+      "NumDraws": 0,
+      "NumLosses": 0
+    },
+    "2293793": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "49": 10,
+        "54": 6,
+        "65": 1
+      },
+      "NumCoins": 5214,
+      "NumWins": 47,
+      "NumDraws": 1,
+      "NumLosses": 0
+    },
+    "2293797": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "89": 1
+      },
+      "NumCoins": 64,
+      "NumWins": 1,
+      "NumDraws": 0,
+      "NumLosses": 0
+    },
+    "2293780": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "38": 2,
+        "11": 2,
+        "26": 1
+      },
+      "NumCoins": 594,
+      "NumWins": 8,
+      "NumDraws": 4,
+      "NumLosses": 2
+    },
+    "2293772": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "59": 1
+      },
+      "NumCoins": 48,
+      "NumWins": 1,
+      "NumDraws": 0,
+      "NumLosses": 0
+    },
+    "2293796": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "84": 1
+      },
+      "NumCoins": 384,
+      "NumWins": 6,
+      "NumDraws": 0,
+      "NumLosses": 0
+    },
+    "2293784": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "58": 1,
+        "33": 6,
+        "38": 2,
+        "162": 1
+      },
+      "NumCoins": 1060,
+      "NumWins": 20,
+      "NumDraws": 1,
+      "NumLosses": 0
+    },
+    "2293790": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "47": 1,
+        "31": 6,
+        "32": 4,
+        "64": 1
+      },
+      "NumCoins": 1824,
+      "NumWins": 14,
+      "NumDraws": 3,
+      "NumLosses": 0
+    }
+  }
+}

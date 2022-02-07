@@ -1,0 +1,106 @@
+{
+  "DalamudRichPresenceInMenus": {
+    "message": "Dans les menus",
+    "description": "Dalamud.RichPresence.Details.InMenus"
+  },
+  "DalamudRichPresenceLevel": {
+    "message": "Nv {0}",
+    "description": "Dalamud.RichPresence.Job.Level"
+  },
+  "DalamudRichPresenceOnline": {
+    "message": "En ligne",
+    "description": "Dalamud.RichPresence.Status.Online"
+  },
+  "DalamudRichPresenceTheSource": {
+    "message": "Monde Primitif",
+    "description": "Dalamud.RichPresence.Place.TheSource"
+  },
+  "DalamudRichPresenceVoid": {
+    "message": "Le Néant",
+    "description": "Dalamud.RichPresence.Zone.Void"
+  },
+  "DalamudRichPresenceUnknown": {
+    "message": "Inconnu",
+    "description": "Dalamud.RichPresence.PlaceZone.Unknown"
+  },
+  "DalamudRichPresenceOpenConfiguration": {
+    "message": "Ouvrir la configuration de la Discord Rich Presence.",
+    "description": "Dalamud.RichPresence.OpenConfiguration"
+  },
+  "DalamudRichPresenceConfiguration": {
+    "message": "Configuration de la Discord Rich Presence",
+    "description": "Dalamud.RichPresence.Configuration"
+  },
+  "DalamudRichPresencePreface1": {
+    "message": "Cette fenêtre vous permet de configurer la Discord Rich Presence.",
+    "description": "Dalamud.RichPresence.Configuration.Preface.Line1"
+  },
+  "DalamudRichPresencePreface2": {
+    "message": "Veuillez vous assurer que Discord n'a pas été lancé en tant qu'administrateur et que le Statut d'Activité est activé.",
+    "description": "Dalamud.RichPresence.Configuration.Preface.Line2"
+  },
+  "DalamudRichPresenceShowName": {
+    "message": "Afficher le nom du personnage",
+    "description": "Dalamud.RichPresence.Configuration.ShowName"
+  },
+  "DalamudRichPresenceShowFreeCompany": {
+    "message": "Afficher le Sigle de Compagnie Libre",
+    "description": "Dalamud.RichPresence.Configuration.ShowFreeCompany"
+  },
+  "DalamudRichPresenceShowWorld": {
+    "message": "Afficher le nom du Monde",
+    "description": "Dalamud.RichPresence.Configuration.ShowWorld"
+  },
+  "DalamudRichPresenceShowStartTime": {
+    "message": "Afficher le temps écoulé dans les zones",
+    "description": "Dalamud.RichPresence.Configuration.ShowStartTime"
+  },
+  "DalamudRichPresenceResetTimeWhenChangingZones": {
+    "message": "Réinitialiser le minuteur lors du changement de zone",
+    "description": "Dalamud.RichPresence.Configuration.ResetTimeWhenChangingZones"
+  },
+  "DalamudRichPresenceShowJob": {
+    "message": "Afficher le job actuel",
+    "description": "Dalamud.RichPresence.Configuration.ShowJob"
+  },
+  "DalamudRichPresenceAbbreviateJob": {
+    "message": "Abréger le nom du job actuel",
+    "description": "Dalamud.RichPresence.Configuration.AbbreviateJob"
+  },
+  "DalamudRichPresenceShowLevel": {
+    "message": "Afficher le niveau de job actuel",
+    "description": "Dalamud.RichPresence.Configuration.ShowLevel"
+  },
+  "DalamudRichPresenceSaveAndClose": {
+    "message": "Sauvegarder et fermer",
+    "description": "Dalamud.RichPresence.Configuration.SaveAndClose"
+  },
+  "DalamudRichPresenceInADuty": {
+    "message": "En mission",
+    "description": "Dalamud.RichPresence.InADuty"
+  },
+  "DalamudRichPresenceShowParty": {
+    "message": "Afficher l'équipe actuelle",
+    "description": "Dalamud.RichPresence.Configuration.ShowParty"
+  },
+  "DalamudRichPresenceShowAFK": {
+    "message": "Afficher le statut Absent",
+    "description": "Dalamud.RichPresence.Configuration.ShowAFK"
+  },
+  "DalamudRichPresenceInLoginQueue": {
+    "message": "Dans la file d'attente de connexion (#{0})",
+    "description": "Dalamud.RichPresence.Details.InLoginQueue"
+  },
+  "DalamudRichPresenceQueueEstimate": {
+    "message": "ETA: {0:h':'mm':'ss}",
+    "description": "Dalamud.RichPresence.Details.QueueEstimate"
+  },
+  "DalamudRichPresenceShowLoginQueuePosition": {
+    "message": "Afficher la position de la file d'attente de connexion",
+    "description": "Dalamud.RichPresence.Configuration.ShowLoginQueuePosition"
+  },
+  "DalamudRichPresenceShowLoginQueuePositionDetail": {
+    "message": "Cette intégration nécessite que le plugin Waitingway soit installé.",
+    "description": "Dalamud.RichPresence.Configuration.ShowLoginQueuePositionDetail"
+  }
+}

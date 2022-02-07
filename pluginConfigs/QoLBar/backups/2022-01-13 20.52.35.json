@@ -1,0 +1,3259 @@
+{
+  "$type": "QoLBar.Configuration, QoLBar",
+  "BarCfgs": [
+    {
+      "$type": "QoLBar.BarCfg, QoLBar",
+      "n": "Main",
+      "k": 222,
+      "sL": [
+        {
+          "$type": "QoLBar.ShCfg, QoLBar",
+          "n": "::0",
+          "t": 1,
+          "c": "",
+          "k": 0,
+          "kP": false,
+          "sL": [
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "::62522",
+              "t": 1,
+              "c": "",
+              "k": 0,
+              "kP": false,
+              "sL": [
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "::62583",
+                  "t": 1,
+                  "c": "",
+                  "k": 0,
+                  "kP": false,
+                  "sL": [
+                    {
+                      "$type": "QoLBar.ShCfg, QoLBar",
+                      "n": "::62123",
+                      "t": 0,
+                      "c": "//m\n/micon 1 gearset\n/gs change BRD\n/wait\n/isort condition armoury ilv des\n/isort execute armoury\n/wait\n/isort condition inventory category asc\n/isort execute inventory\n//m\n",
+                      "k": 219,
+                      "kP": false,
+                      "sL": null,
+                      "m": 0,
+                      "cl": 4294967295,
+                      "clA": 0,
+                      "iZ": 1.0,
+                      "iO": [
+                        0.0,
+                        0.0
+                      ],
+                      "iR": 0.0,
+                      "cdA": 0,
+                      "cdS": 0,
+                      "cW": 140,
+                      "cSO": false,
+                      "cC": 1,
+                      "cSp": [
+                        8,
+                        4
+                      ],
+                      "cS": 1.0,
+                      "cF": 1.0,
+                      "cNB": false,
+                      "cH": false,
+                      "cHC": false,
+                      "_i": 0
+                    }
+                  ],
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": true,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": true,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "::66081",
+                  "t": 1,
+                  "c": "",
+                  "k": 0,
+                  "kP": false,
+                  "sL": [
+                    {
+                      "$type": "QoLBar.ShCfg, QoLBar",
+                      "n": "::62318",
+                      "t": 0,
+                      "c": "//m\n/gs change MIN\n/wait\n/ac Triangulate\n/wait\n/ac \"Truth of Forests\"\n/wait\n/ac \"Truth of Mountains\"\n//m",
+                      "k": 0,
+                      "kP": false,
+                      "sL": null,
+                      "m": 0,
+                      "cl": 4294967295,
+                      "clA": 0,
+                      "iZ": 1.0,
+                      "iO": [
+                        0.0,
+                        0.0
+                      ],
+                      "iR": 0.0,
+                      "cdA": 0,
+                      "cdS": 0,
+                      "cW": 140,
+                      "cSO": false,
+                      "cC": 1,
+                      "cSp": [
+                        8,
+                        4
+                      ],
+                      "cS": 1.0,
+                      "cF": 1.0,
+                      "cNB": false,
+                      "cH": false,
+                      "cHC": false,
+                      "_i": 0
+                    },
+                    {
+                      "$type": "QoLBar.ShCfg, QoLBar",
+                      "n": "::62319",
+                      "t": 0,
+                      "c": "//m\n/gs change BTN\n/wait\n/ac Prospect\n/wait\n/ac \"Truth of Forests\"\n/wait\n/ac \"Truth of Mountains\"\n//m",
+                      "k": 0,
+                      "kP": false,
+                      "sL": null,
+                      "m": 0,
+                      "cl": 4294967295,
+                      "clA": 0,
+                      "iZ": 1.0,
+                      "iO": [
+                        0.0,
+                        0.0
+                      ],
+                      "iR": 0.0,
+                      "cdA": 0,
+                      "cdS": 0,
+                      "cW": 140,
+                      "cSO": false,
+                      "cC": 1,
+                      "cSp": [
+                        8,
+                        4
+                      ],
+                      "cS": 1.0,
+                      "cF": 1.0,
+                      "cNB": false,
+                      "cH": false,
+                      "cHC": false,
+                      "_i": 0
+                    },
+                    {
+                      "$type": "QoLBar.ShCfg, QoLBar",
+                      "n": "::62320",
+                      "t": 0,
+                      "c": "//m\n/gs change FSH\n/wait\n/ac \"Truth of Forests\"\n/wait\n/ac \"Truth of Mountains\"\n//m",
+                      "k": 0,
+                      "kP": false,
+                      "sL": null,
+                      "m": 0,
+                      "cl": 4294967295,
+                      "clA": 0,
+                      "iZ": 1.0,
+                      "iO": [
+                        0.0,
+                        0.0
+                      ],
+                      "iR": 0.0,
+                      "cdA": 0,
+                      "cdS": 0,
+                      "cW": 140,
+                      "cSO": false,
+                      "cC": 1,
+                      "cSp": [
+                        8,
+                        4
+                      ],
+                      "cS": 1.0,
+                      "cF": 1.0,
+                      "cNB": false,
+                      "cH": false,
+                      "cHC": false,
+                      "_i": 0
+                    }
+                  ],
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": true,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": true,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "::66061",
+                  "t": 1,
+                  "c": "",
+                  "k": 0,
+                  "kP": false,
+                  "sL": [
+                    {
+                      "$type": "QoLBar.ShCfg, QoLBar",
+                      "n": "::62108",
+                      "t": 0,
+                      "c": "/gs change CRP",
+                      "k": 0,
+                      "kP": false,
+                      "sL": null,
+                      "m": 0,
+                      "cl": 4294967295,
+                      "clA": 0,
+                      "iZ": 1.0,
+                      "iO": [
+                        0.0,
+                        0.0
+                      ],
+                      "iR": 0.0,
+                      "cdA": 0,
+                      "cdS": 0,
+                      "cW": 140,
+                      "cSO": false,
+                      "cC": 1,
+                      "cSp": [
+                        8,
+                        4
+                      ],
+                      "cS": 1.0,
+                      "cF": 1.0,
+                      "cNB": false,
+                      "cH": false,
+                      "cHC": false,
+                      "_i": 0
+                    },
+                    {
+                      "$type": "QoLBar.ShCfg, QoLBar",
+                      "n": "::62109",
+                      "t": 0,
+                      "c": "/gs change BSM",
+                      "k": 0,
+                      "kP": false,
+                      "sL": null,
+                      "m": 0,
+                      "cl": 4294967295,
+                      "clA": 0,
+                      "iZ": 1.0,
+                      "iO": [
+                        0.0,
+                        0.0
+                      ],
+                      "iR": 0.0,
+                      "cdA": 0,
+                      "cdS": 0,
+                      "cW": 140,
+                      "cSO": false,
+                      "cC": 1,
+                      "cSp": [
+                        8,
+                        4
+                      ],
+                      "cS": 1.0,
+                      "cF": 1.0,
+                      "cNB": false,
+                      "cH": false,
+                      "cHC": false,
+                      "_i": 0
+                    },
+                    {
+                      "$type": "QoLBar.ShCfg, QoLBar",
+                      "n": "::62110",
+                      "t": 0,
+                      "c": "/gs change ARM",
+                      "k": 0,
+                      "kP": false,
+                      "sL": null,
+                      "m": 0,
+                      "cl": 4294967295,
+                      "clA": 0,
+                      "iZ": 1.0,
+                      "iO": [
+                        0.0,
+                        0.0
+                      ],
+                      "iR": 0.0,
+                      "cdA": 0,
+                      "cdS": 0,
+                      "cW": 140,
+                      "cSO": false,
+                      "cC": 1,
+                      "cSp": [
+                        8,
+                        4
+                      ],
+                      "cS": 1.0,
+                      "cF": 1.0,
+                      "cNB": false,
+                      "cH": false,
+                      "cHC": false,
+                      "_i": 0
+                    },
+                    {
+                      "$type": "QoLBar.ShCfg, QoLBar",
+                      "n": "::62111",
+                      "t": 0,
+                      "c": "/gs change GSM",
+                      "k": 0,
+                      "kP": false,
+                      "sL": null,
+                      "m": 0,
+                      "cl": 4294967295,
+                      "clA": 0,
+                      "iZ": 1.0,
+                      "iO": [
+                        0.0,
+                        0.0
+                      ],
+                      "iR": 0.0,
+                      "cdA": 0,
+                      "cdS": 0,
+                      "cW": 140,
+                      "cSO": false,
+                      "cC": 1,
+                      "cSp": [
+                        8,
+                        4
+                      ],
+                      "cS": 1.0,
+                      "cF": 1.0,
+                      "cNB": false,
+                      "cH": false,
+                      "cHC": false,
+                      "_i": 0
+                    },
+                    {
+                      "$type": "QoLBar.ShCfg, QoLBar",
+                      "n": "::62112",
+                      "t": 0,
+                      "c": "/gs change LTW",
+                      "k": 0,
+                      "kP": false,
+                      "sL": null,
+                      "m": 0,
+                      "cl": 4294967295,
+                      "clA": 0,
+                      "iZ": 1.0,
+                      "iO": [
+                        0.0,
+                        0.0
+                      ],
+                      "iR": 0.0,
+                      "cdA": 0,
+                      "cdS": 0,
+                      "cW": 140,
+                      "cSO": false,
+                      "cC": 1,
+                      "cSp": [
+                        8,
+                        4
+                      ],
+                      "cS": 1.0,
+                      "cF": 1.0,
+                      "cNB": false,
+                      "cH": false,
+                      "cHC": false,
+                      "_i": 0
+                    },
+                    {
+                      "$type": "QoLBar.ShCfg, QoLBar",
+                      "n": "::62113",
+                      "t": 0,
+                      "c": "/gs change WVR",
+                      "k": 0,
+                      "kP": false,
+                      "sL": null,
+                      "m": 0,
+                      "cl": 4294967295,
+                      "clA": 0,
+                      "iZ": 1.0,
+                      "iO": [
+                        0.0,
+                        0.0
+                      ],
+                      "iR": 0.0,
+                      "cdA": 0,
+                      "cdS": 0,
+                      "cW": 140,
+                      "cSO": false,
+                      "cC": 1,
+                      "cSp": [
+                        8,
+                        4
+                      ],
+                      "cS": 1.0,
+                      "cF": 1.0,
+                      "cNB": false,
+                      "cH": false,
+                      "cHC": false,
+                      "_i": 0
+                    },
+                    {
+                      "$type": "QoLBar.ShCfg, QoLBar",
+                      "n": "::62114",
+                      "t": 0,
+                      "c": "/gs change ALC",
+                      "k": 0,
+                      "kP": false,
+                      "sL": null,
+                      "m": 0,
+                      "cl": 4294967295,
+                      "clA": 0,
+                      "iZ": 1.0,
+                      "iO": [
+                        0.0,
+                        0.0
+                      ],
+                      "iR": 0.0,
+                      "cdA": 0,
+                      "cdS": 0,
+                      "cW": 140,
+                      "cSO": false,
+                      "cC": 1,
+                      "cSp": [
+                        8,
+                        4
+                      ],
+                      "cS": 1.0,
+                      "cF": 1.0,
+                      "cNB": false,
+                      "cH": false,
+                      "cHC": false,
+                      "_i": 0
+                    },
+                    {
+                      "$type": "QoLBar.ShCfg, QoLBar",
+                      "n": "::62115",
+                      "t": 0,
+                      "c": "/gs change CUL",
+                      "k": 0,
+                      "kP": false,
+                      "sL": null,
+                      "m": 0,
+                      "cl": 4294967295,
+                      "clA": 0,
+                      "iZ": 1.0,
+                      "iO": [
+                        0.0,
+                        0.0
+                      ],
+                      "iR": 0.0,
+                      "cdA": 0,
+                      "cdS": 0,
+                      "cW": 140,
+                      "cSO": false,
+                      "cC": 1,
+                      "cSp": [
+                        8,
+                        4
+                      ],
+                      "cS": 1.0,
+                      "cF": 1.0,
+                      "cNB": false,
+                      "cH": false,
+                      "cHC": false,
+                      "_i": 0
+                    }
+                  ],
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": true,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": true,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "::62582",
+                  "t": 1,
+                  "c": "",
+                  "k": 0,
+                  "kP": false,
+                  "sL": [],
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": true,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": true,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "::62581",
+                  "t": 1,
+                  "c": "",
+                  "k": 0,
+                  "kP": false,
+                  "sL": [],
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": true,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": true,
+                  "cHC": false,
+                  "_i": 0
+                }
+              ],
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.0,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": true,
+              "cC": 1,
+              "cSp": [
+                8,
+                4
+              ],
+              "cS": 1.6,
+              "cF": 1.0,
+              "cNB": false,
+              "cH": true,
+              "cHC": false,
+              "_i": 0
+            },
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "::60003",
+              "t": 1,
+              "c": "",
+              "k": 0,
+              "kP": false,
+              "sL": [
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Market Board",
+                  "t": 0,
+                  "c": "/pmb",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Gather Buddy",
+                  "t": 0,
+                  "c": "/gatherbuddy",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Tourist",
+                  "t": 0,
+                  "c": "/tourist",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Kapture",
+                  "t": 1,
+                  "c": "/lootconfig",
+                  "k": 0,
+                  "kP": false,
+                  "sL": [
+                    {
+                      "$type": "QoLBar.ShCfg, QoLBar",
+                      "n": "Loot Window",
+                      "t": 0,
+                      "c": "/loot",
+                      "k": 0,
+                      "kP": false,
+                      "sL": null,
+                      "m": 0,
+                      "cl": 4294967295,
+                      "clA": 0,
+                      "iZ": 1.0,
+                      "iO": [
+                        0.0,
+                        0.0
+                      ],
+                      "iR": 0.0,
+                      "cdA": 0,
+                      "cdS": 0,
+                      "cW": 140,
+                      "cSO": false,
+                      "cC": 1,
+                      "cSp": [
+                        8,
+                        4
+                      ],
+                      "cS": 1.0,
+                      "cF": 1.0,
+                      "cNB": false,
+                      "cH": false,
+                      "cHC": false,
+                      "_i": 0
+                    },
+                    {
+                      "$type": "QoLBar.ShCfg, QoLBar",
+                      "n": "Roll Window",
+                      "t": 0,
+                      "c": "/roll",
+                      "k": 0,
+                      "kP": false,
+                      "sL": null,
+                      "m": 0,
+                      "cl": 4294967295,
+                      "clA": 0,
+                      "iZ": 1.0,
+                      "iO": [
+                        0.0,
+                        0.0
+                      ],
+                      "iR": 0.0,
+                      "cdA": 0,
+                      "cdS": 0,
+                      "cW": 140,
+                      "cSO": false,
+                      "cC": 1,
+                      "cSp": [
+                        8,
+                        4
+                      ],
+                      "cS": 1.0,
+                      "cF": 1.0,
+                      "cNB": false,
+                      "cH": false,
+                      "cHC": false,
+                      "_i": 0
+                    }
+                  ],
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": true,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.5,
+                  "cNB": false,
+                  "cH": true,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Repair",
+                  "t": 0,
+                  "c": "/ac repair",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Materia Extract",
+                  "t": 0,
+                  "c": "/ac \"materia Extraction\"",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Materia Meld",
+                  "t": 0,
+                  "c": "/ac \"advanced materia melding\"",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Reset Enmity",
+                  "t": 0,
+                  "c": "/resetenmityall",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                }
+              ],
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.0,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": true,
+              "cC": 1,
+              "cSp": [
+                8,
+                4
+              ],
+              "cS": 1.0,
+              "cF": 1.5,
+              "cNB": false,
+              "cH": true,
+              "cHC": false,
+              "_i": 0
+            },
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "::60002",
+              "t": 1,
+              "c": "/qolbar",
+              "k": 0,
+              "kP": false,
+              "sL": [
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Tweaks",
+                  "t": 0,
+                  "c": "/tweaks",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Repair Me!",
+                  "t": 0,
+                  "c": "/repairme",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Compass",
+                  "t": 0,
+                  "c": "/compass",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Nameplate Debuffs",
+                  "t": 0,
+                  "c": "/npdebuffs",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Triad Buddy",
+                  "t": 0,
+                  "c": "/triadbuddy",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Big Player Debuffs",
+                  "t": 0,
+                  "c": "/bigplayerdebuffs",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Chat Bubbles",
+                  "t": 0,
+                  "c": "/bub",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Easy Eyes",
+                  "t": 0,
+                  "c": "/easy",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Engage Timer",
+                  "t": 0,
+                  "c": "/egsettings",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Loot Tracker",
+                  "t": 0,
+                  "c": "/lootconfig",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Kingdom Hearts Bar",
+                  "t": 0,
+                  "c": "/khp",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Ad Block",
+                  "t": 0,
+                  "c": "/nosol",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Pixel Perfect",
+                  "t": 0,
+                  "c": "/pp",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Price Check",
+                  "t": 0,
+                  "c": "/pcheckconfig",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Combo Macros",
+                  "t": 0,
+                  "c": "/pcombo",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Player Visibility",
+                  "t": 0,
+                  "c": "/pvis",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Job Bars",
+                  "t": 0,
+                  "c": "/jobbars",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Globetrotter",
+                  "t": 0,
+                  "c": "/pglobetrotter",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                }
+              ],
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.0,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": true,
+              "cC": 1,
+              "cSp": [
+                8,
+                4
+              ],
+              "cS": 1.0,
+              "cF": 1.5,
+              "cNB": false,
+              "cH": true,
+              "cHC": false,
+              "_i": 0
+            },
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "::60453",
+              "t": 1,
+              "c": "",
+              "k": 0,
+              "kP": false,
+              "sL": [
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Limsa::60448",
+                  "t": 0,
+                  "c": "/tp limsa",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Return::64885",
+                  "t": 0,
+                  "c": "/return",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Gridania",
+                  "t": 0,
+                  "c": "/tp Gridania",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                }
+              ],
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.0,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": true,
+              "cC": 1,
+              "cSp": [
+                8,
+                4
+              ],
+              "cS": 1.0,
+              "cF": 1.5,
+              "cNB": false,
+              "cH": true,
+              "cHC": false,
+              "_i": 0
+            },
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "::21",
+              "t": 1,
+              "c": "",
+              "k": 0,
+              "kP": false,
+              "sL": [
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Achievements",
+                  "t": 0,
+                  "c": "/achievements",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Gathering",
+                  "t": 0,
+                  "c": "/gatheringlog",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Crafting",
+                  "t": 0,
+                  "c": "/craftinglog",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Hunting",
+                  "t": 0,
+                  "c": "/huntinglog",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Fish Guide",
+                  "t": 0,
+                  "c": "/fishguide",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Fish Log",
+                  "t": 0,
+                  "c": "/fishinglog",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "Challenges",
+                  "t": 0,
+                  "c": "/challengelog",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                }
+              ],
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.0,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": true,
+              "cC": 1,
+              "cSp": [
+                8,
+                11
+              ],
+              "cS": 1.0,
+              "cF": 1.5,
+              "cNB": false,
+              "cH": true,
+              "cHC": false,
+              "_i": 0
+            },
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "::61414",
+              "t": 1,
+              "c": "/macros",
+              "k": 0,
+              "kP": false,
+              "sL": [
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "::8",
+                  "t": 0,
+                  "c": "/isort condition armoury ilv des\n/isort execute armoury\n/isort condition inventory category asc\n/isort execute inventory\n/isort condition saddlebag category asc\n/isort execute saddlebag\n/isort condition retainer category asc\n/isort execute retainer",
+                  "k": 49,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "::70007",
+                  "t": 0,
+                  "c": "/ac \"Mount Roulette\"\n/ac Sprint\n/ac Peloton",
+                  "k": 225,
+                  "kP": false,
+                  "sL": [],
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": true,
+                  "cC": 5,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.81,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": true,
+                  "cHC": true,
+                  "_i": 0
+                }
+              ],
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.13,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": true,
+              "cC": 1,
+              "cSp": [
+                8,
+                4
+              ],
+              "cS": 1.0,
+              "cF": 1.0,
+              "cNB": false,
+              "cH": true,
+              "cHC": false,
+              "_i": 0
+            },
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "::180031",
+              "t": 0,
+              "c": "/xlplugins",
+              "k": 0,
+              "kP": false,
+              "sL": null,
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.0,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": false,
+              "cC": 1,
+              "cSp": [
+                8,
+                4
+              ],
+              "cS": 1.0,
+              "cF": 1.0,
+              "cNB": false,
+              "cH": false,
+              "cHC": false,
+              "_i": 0
+            },
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "::26",
+              "t": 0,
+              "c": "/logout",
+              "k": 0,
+              "kP": false,
+              "sL": null,
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.0,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": false,
+              "cC": 1,
+              "cSp": [
+                8,
+                4
+              ],
+              "cS": 1.0,
+              "cF": 1.0,
+              "cNB": false,
+              "cH": false,
+              "cHC": false,
+              "_i": 0
+            }
+          ],
+          "m": 0,
+          "cl": 4294967295,
+          "clA": 0,
+          "iZ": 1.0,
+          "iO": [
+            0.0,
+            0.0
+          ],
+          "iR": 0.0,
+          "cdA": 0,
+          "cdS": 0,
+          "cW": 140,
+          "cSO": true,
+          "cC": 6,
+          "cSp": [
+            8,
+            4
+          ],
+          "cS": 1.81,
+          "cF": 1.0,
+          "cNB": false,
+          "cH": true,
+          "cHC": false,
+          "_i": 0
+        }
+      ],
+      "h": false,
+      "d": 0,
+      "a": 0,
+      "v": 2,
+      "ht": false,
+      "bW": 97,
+      "e": false,
+      "cT": false,
+      "p": [
+        -0.017578125,
+        -0.02604167
+      ],
+      "l": true,
+      "co": 0,
+      "s": 1.36,
+      "rA": 1.0,
+      "fS": 1.0,
+      "sp": [
+        8,
+        4
+      ],
+      "nB": true,
+      "c": -1
+    },
+    {
+      "$type": "QoLBar.BarCfg, QoLBar",
+      "n": "Crafting",
+      "k": 0,
+      "sL": [
+        {
+          "$type": "QoLBar.ShCfg, QoLBar",
+          "n": "80 Durability",
+          "t": 1,
+          "c": "",
+          "k": 0,
+          "kP": false,
+          "sL": [
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "2 Synthesis",
+              "t": 1,
+              "c": "",
+              "k": 0,
+              "kP": false,
+              "sL": [
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "18 Touch",
+                  "t": 0,
+                  "c": "//m\n/mlock\n/ac \"Standard Touch\" <wait.3>\n/ac \"Great Strides\" <wait.2>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Great Strides\" <wait.2>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Great Strides\" <wait.2>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Basic Synthesis\" <wait.3>\n/ac \"Basic Synthesis\" <wait.3>\n/echo Craft finished <se.1>\n//m",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                }
+              ],
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.0,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": false,
+              "cC": 1,
+              "cSp": [
+                8,
+                4
+              ],
+              "cS": 1.0,
+              "cF": 1.5,
+              "cNB": false,
+              "cH": true,
+              "cHC": false,
+              "_i": 0
+            },
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "2* Synthesis",
+              "t": 1,
+              "c": "",
+              "k": 0,
+              "kP": false,
+              "sL": [
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "12* Touch",
+                  "t": 0,
+                  "c": "//m\n/mlock\n/ac \"Standard Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac Innovation <wait.2>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Great Strides\" <wait.2>\n/ac \"Byregot's Blessing\" <wait.3>\n/ac Veneration <wait.2>\n/ac \"Basic Synthesis\" <wait.3>\n/ac \"Basic Synthesis\" <wait.3>\n/echo Craft finished <se.1>\n//m",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                }
+              ],
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.0,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": false,
+              "cC": 1,
+              "cSp": [
+                8,
+                4
+              ],
+              "cS": 1.0,
+              "cF": 1.5,
+              "cNB": false,
+              "cH": true,
+              "cHC": false,
+              "_i": 0
+            },
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "3 Synthesis",
+              "t": 1,
+              "c": "",
+              "k": 0,
+              "kP": false,
+              "sL": [
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "12 Touch",
+                  "t": 0,
+                  "c": "//m\n/mlock\n/ac \"Standard Touch\" <wait.3>\n/ac \"Great Strides\" <wait.2>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Great Strides\" <wait.2>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Byregot's Blessing\" <wait.3>\n/ac \"Basic Synthesis\" <wait.3>\n/ac \"Basic Synthesis\" <wait.3>\n/ac \"Basic Synthesis\" <wait.3>\n/echo Craft finished <se.1>\n//m",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                }
+              ],
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.0,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": false,
+              "cC": 1,
+              "cSp": [
+                8,
+                4
+              ],
+              "cS": 1.0,
+              "cF": 1.5,
+              "cNB": false,
+              "cH": true,
+              "cHC": false,
+              "_i": 0
+            },
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "3* Synthesis",
+              "t": 1,
+              "c": "",
+              "k": 0,
+              "kP": false,
+              "sL": [
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "18* Touch",
+                  "t": 0,
+                  "c": "//m\n/mlock\n/ac Innovation <wait.4>\n/ac \"Great Strides\" <wait.4>\n/ac \"Standard Touch\" <wait.5>\n/ac \"Great Strides\" <wait.4>\n/ac \"Standard Touch\" <wait.5>\n/ac Innovation <wait.4>\n/ac \"Great Strides\" <wait.4>\n/ac \"Standard Touch\" <wait.5>\n/ac \"Byregot's Blessing\" <wait.5>\n/ac Veneration <wait.4>\n/ac \"Basic Synthesis\" <wait.5>\n/ac \"Basic Synthesis\" <wait.5>\n/ac \"Basic Synthesis\" <wait.5>\n/echo Craft finished <se.1>\n//m",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                }
+              ],
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.0,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": false,
+              "cC": 1,
+              "cSp": [
+                8,
+                4
+              ],
+              "cS": 1.0,
+              "cF": 1.5,
+              "cNB": false,
+              "cH": true,
+              "cHC": true,
+              "_i": 0
+            },
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "4* Synthesis",
+              "t": 1,
+              "c": "",
+              "k": 0,
+              "kP": false,
+              "sL": [
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "18* Touch",
+                  "t": 0,
+                  "c": "//m\n/mlock\n/ac Innovation <wait.2>\n/ac \"Great Strides\" <wait.2>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Great Strides\" <wait.2>\n/ac \"Standard Touch\" <wait.3>\n/ac Innovation <wait.2>\n/ac \"Great Strides\" <wait.2>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Byregot's Blessing\" <wait.3>\n/ac Veneration <wait.2>\n/ac \"Basic Synthesis\" <wait.3>\n/ac \"Basic Synthesis\" <wait.3>\n/ac \"Basic Synthesis\" <wait.3>\n/echo Craft finished <se.1>\n//m",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                }
+              ],
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.0,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": false,
+              "cC": 1,
+              "cSp": [
+                8,
+                4
+              ],
+              "cS": 1.0,
+              "cF": 1.5,
+              "cNB": false,
+              "cH": true,
+              "cHC": false,
+              "_i": 0
+            }
+          ],
+          "m": 0,
+          "cl": 4294967295,
+          "clA": 0,
+          "iZ": 1.0,
+          "iO": [
+            0.0,
+            0.0
+          ],
+          "iR": 0.0,
+          "cdA": 0,
+          "cdS": 0,
+          "cW": 140,
+          "cSO": true,
+          "cC": 1,
+          "cSp": [
+            8,
+            4
+          ],
+          "cS": 1.0,
+          "cF": 1.5,
+          "cNB": false,
+          "cH": true,
+          "cHC": true,
+          "_i": 0
+        },
+        {
+          "$type": "QoLBar.ShCfg, QoLBar",
+          "n": "60 Durability",
+          "t": 1,
+          "c": "",
+          "k": 0,
+          "kP": false,
+          "sL": [
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "1 Synthesis",
+              "t": 1,
+              "c": "",
+              "k": 0,
+              "kP": false,
+              "sL": [
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "15 Touch",
+                  "t": 0,
+                  "c": "//m\n/mlock\n/ac Innovation <wait.2>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac Innovation <wait.2>\n/ac \"Great Strides\" <wait.2>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Great Strides\" <wait.2>\n/ac \"Byregot's Blessing\" <wait.3>\n/ac \"Basic Synthesis\" <wait.3>\n/echo Craft finished <se.1>\n//m",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                }
+              ],
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.0,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": false,
+              "cC": 1,
+              "cSp": [
+                8,
+                4
+              ],
+              "cS": 1.0,
+              "cF": 1.5,
+              "cNB": false,
+              "cH": true,
+              "cHC": true,
+              "_i": 0
+            }
+          ],
+          "m": 0,
+          "cl": 4294967295,
+          "clA": 0,
+          "iZ": 1.0,
+          "iO": [
+            0.0,
+            0.0
+          ],
+          "iR": 0.0,
+          "cdA": 0,
+          "cdS": 0,
+          "cW": 140,
+          "cSO": true,
+          "cC": 1,
+          "cSp": [
+            8,
+            4
+          ],
+          "cS": 1.0,
+          "cF": 1.5,
+          "cNB": false,
+          "cH": true,
+          "cHC": true,
+          "_i": 0
+        },
+        {
+          "$type": "QoLBar.ShCfg, QoLBar",
+          "n": "40 Durability",
+          "t": 1,
+          "c": "",
+          "k": 0,
+          "kP": false,
+          "sL": [
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "1 Synth",
+              "t": 1,
+              "c": "",
+              "k": 0,
+              "kP": false,
+              "sL": [
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "2 Touch",
+                  "t": 0,
+                  "c": "//m\n/mlock\n/ac \"Standard Touch\" <wait.3>\n/ac \"Basic Synthesis\" <wait.3>\n/echo Craft finished <se.1>\n//m",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "4 Touch",
+                  "t": 0,
+                  "c": "//m\n/mlock\n/ac \"Standard Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Basic Synthesis\" <wait.3>\n/echo Craft finished <se.1>\n//m",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "6 Touch",
+                  "t": 0,
+                  "c": "//m\n/mlock\n/ac \"Standard Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Basic Synthesis\" <wait.3>\n/echo Craft finished <se.1>\n//m",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "12 Touch",
+                  "t": 0,
+                  "c": "//m\n/mlock\n/ac Innovation <wait.2>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Great Strides\" <wait.2>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Basic Synthesis\" <wait.3>\n/echo Craft finished <se.1>\n//m",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                }
+              ],
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.0,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": false,
+              "cC": 1,
+              "cSp": [
+                8,
+                4
+              ],
+              "cS": 1.0,
+              "cF": 1.5,
+              "cNB": false,
+              "cH": true,
+              "cHC": false,
+              "_i": 0
+            },
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "2 Synthesis",
+              "t": 1,
+              "c": "",
+              "k": 0,
+              "kP": false,
+              "sL": [
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "12* Touch",
+                  "t": 0,
+                  "c": "//m\n/mlock\n/ac Innovation <wait.2>\n/ac \"Waste Not II\" <wait.2>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Great Strides\" <wait.2>\n/ac \"Standard Touch\" <wait.3>\n/ac Innovation <wait.2>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Byregot's Blessing\" <wait.3>\n/ac \"Basic Synthesis\" <wait.3>\n/ac \"Basic Synthesis\" <wait.3>\n/echo Craft finished <se.1>\n//m",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                },
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "1453 Quality",
+                  "t": 0,
+                  "c": "//m\n/mlock\n/ac \"Waste Not II\" <wait.2>\n/ac Innovation <wait.2>\n/ac \"Basic Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Great Strides\" <wait.2>\n/ac \"Basic Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Great Strides\" <wait.2>\n/ac \"Byregot's Blessing\" <wait.3>\n/ac \"Basic Synthesis\" <wait.3>\n/ac \"Basic Synthesis\" <wait.3>\n/echo Craft finished <se.1>\n//m",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                }
+              ],
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.0,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": false,
+              "cC": 1,
+              "cSp": [
+                8,
+                4
+              ],
+              "cS": 1.0,
+              "cF": 1.5,
+              "cNB": false,
+              "cH": true,
+              "cHC": false,
+              "_i": 0
+            }
+          ],
+          "m": 0,
+          "cl": 4294967295,
+          "clA": 0,
+          "iZ": 1.0,
+          "iO": [
+            0.0,
+            0.0
+          ],
+          "iR": 0.0,
+          "cdA": 0,
+          "cdS": 0,
+          "cW": 140,
+          "cSO": true,
+          "cC": 1,
+          "cSp": [
+            8,
+            4
+          ],
+          "cS": 1.0,
+          "cF": 1.5,
+          "cNB": false,
+          "cH": true,
+          "cHC": true,
+          "_i": 0
+        },
+        {
+          "$type": "QoLBar.ShCfg, QoLBar",
+          "n": "rlvl 50",
+          "t": 1,
+          "c": "",
+          "k": 0,
+          "kP": false,
+          "sL": [
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "80 Durability",
+              "t": 1,
+              "c": "",
+              "k": 0,
+              "kP": false,
+              "sL": [
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "2035 Quality",
+                  "t": 0,
+                  "c": "//m\n/mlock\n/ac Innovation <wait.4>\n/ac \"Great Strides\" <wait.4>\n/ac \"Basic Touch\" <wait.5>\n/ac \"Standard Touch\" <wait.5>\n/ac \"Standard Touch\" <wait.5>\n/ac Innovation <wait.4>\n/ac \"Great Strides\" <wait.4>\n/ac \"Basic Touch\" <wait.5>\n/ac \"Standard Touch\" <wait.5>\n/ac \"Great Strides\" <wait.4>\n/ac \"Byregot's Blessing\" <wait.5>\n/ac Veneration <wait.4>\n/ac \"Basic Synthesis\" <wait.5>\n/ac \"Basic Synthesis\" <wait.5>\n//m",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                }
+              ],
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.0,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": false,
+              "cC": 1,
+              "cSp": [
+                8,
+                4
+              ],
+              "cS": 1.0,
+              "cF": 1.5,
+              "cNB": false,
+              "cH": true,
+              "cHC": false,
+              "_i": 0
+            }
+          ],
+          "m": 0,
+          "cl": 4294967295,
+          "clA": 0,
+          "iZ": 1.0,
+          "iO": [
+            0.0,
+            0.0
+          ],
+          "iR": 0.0,
+          "cdA": 0,
+          "cdS": 0,
+          "cW": 140,
+          "cSO": true,
+          "cC": 1,
+          "cSp": [
+            8,
+            4
+          ],
+          "cS": 1.0,
+          "cF": 1.5,
+          "cNB": false,
+          "cH": true,
+          "cHC": false,
+          "_i": 0
+        },
+        {
+          "$type": "QoLBar.ShCfg, QoLBar",
+          "n": "rlvl 44",
+          "t": 1,
+          "c": "",
+          "k": 0,
+          "kP": false,
+          "sL": [
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "80 Durability",
+              "t": 1,
+              "c": "",
+              "k": 0,
+              "kP": false,
+              "sL": [
+                {
+                  "$type": "QoLBar.ShCfg, QoLBar",
+                  "n": "14 Steps",
+                  "t": 0,
+                  "c": "//m\n/mlock\n/ac \"Waste Not II\" <wait.4>\n/ac Innovation <wait.4>\n/ac \"Basic Touch\" <wait.5>\n/ac \"Standard Touch\" <wait.5>\n/ac \"Basic Touch\" <wait.5>\n/ac \"Standard Touch\" <wait.5>\n/ac \"Basic Touch\" <wait.5>\n/ac \"Standard Touch\" <wait.5>\n/ac \"Basic Touch\" <wait.5>\n/ac \"Standard Touch\" <wait.5>\n/ac Veneration <wait.4>\n/ac \"Basic Synthesis\" <wait.5>\n/ac \"Basic Synthesis\" <wait.5>\n/ac \"Basic Synthesis\" <wait.5>\n//m",
+                  "k": 0,
+                  "kP": false,
+                  "sL": null,
+                  "m": 0,
+                  "cl": 4294967295,
+                  "clA": 0,
+                  "iZ": 1.0,
+                  "iO": [
+                    0.0,
+                    0.0
+                  ],
+                  "iR": 0.0,
+                  "cdA": 0,
+                  "cdS": 0,
+                  "cW": 140,
+                  "cSO": false,
+                  "cC": 1,
+                  "cSp": [
+                    8,
+                    4
+                  ],
+                  "cS": 1.0,
+                  "cF": 1.0,
+                  "cNB": false,
+                  "cH": false,
+                  "cHC": false,
+                  "_i": 0
+                }
+              ],
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.0,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": false,
+              "cC": 1,
+              "cSp": [
+                8,
+                4
+              ],
+              "cS": 1.0,
+              "cF": 1.5,
+              "cNB": false,
+              "cH": true,
+              "cHC": false,
+              "_i": 0
+            }
+          ],
+          "m": 0,
+          "cl": 4294967295,
+          "clA": 0,
+          "iZ": 1.0,
+          "iO": [
+            0.0,
+            0.0
+          ],
+          "iR": 0.0,
+          "cdA": 0,
+          "cdS": 0,
+          "cW": 140,
+          "cSO": true,
+          "cC": 1,
+          "cSp": [
+            8,
+            4
+          ],
+          "cS": 1.0,
+          "cF": 1.5,
+          "cNB": false,
+          "cH": true,
+          "cHC": false,
+          "_i": 0
+        }
+      ],
+      "h": false,
+      "d": 0,
+      "a": 2,
+      "v": 2,
+      "ht": false,
+      "bW": 150,
+      "e": true,
+      "cT": false,
+      "p": [
+        0.0,
+        0.0
+      ],
+      "l": true,
+      "co": 1,
+      "s": 1.0,
+      "rA": 1.0,
+      "fS": 1.5,
+      "sp": [
+        8,
+        4
+      ],
+      "nB": false,
+      "c": 0
+    }
+  ],
+  "ConditionSets": [
+    {
+      "$type": "QoLBar.DisplayConditionSet, QoLBar",
+      "Name": "Crafting",
+      "Conditions": [
+        {
+          "$type": "QoLBar.DisplayCondition, QoLBar",
+          "Type": 1,
+          "Condition": 5,
+          "Arg": 0
+        }
+      ]
+    }
+  ],
+  "ExportOnDelete": true,
+  "UseIconFrame": false,
+  "AlwaysDisplayBars": true,
+  "OptOutGameUIOffHide": false,
+  "OptOutCutsceneHide": false,
+  "OptOutGPoseHide": false,
+  "NoConditionCache": false,
+  "UseHRIcons": false,
+  "BackupTimer": 30,
+  "PieOpacity": 112,
+  "PieAlternateAngle": false,
+  "PiesAlwaysCenter": true,
+  "PiesMoveMouse": true,
+  "PiesReturnMouse": false,
+  "PiesReadjustMouse": false,
+  "UsePenumbra": false,
+  "FontSize": 32.0,
+  "PluginVersion": "2.2.1.2",
+  "Version": 1
+}

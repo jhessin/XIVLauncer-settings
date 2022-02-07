@@ -1,0 +1,32 @@
+{
+  "Item1": {
+    "Name": "Grillbrick Taylor",
+    "ServerId": 77
+  },
+  "Item2": {
+    "Leves": {
+      "Allowances": 63,
+      "LastUpdate": "2022-02-06T12:00:00Z"
+    },
+    "Squadron": {
+      "MissionEnd": "0001-01-01T00:00:00",
+      "TrainingEnd": "0001-01-01T00:00:00",
+      "MissionId": 0,
+      "TrainingId": 0,
+      "NewRecruits": false
+    },
+    "Map": "2022-02-03T14:00:10.7723236Z",
+    "MiniCactpot": {
+      "LastUpdate": "2022-02-05T22:40:18.5679587Z",
+      "Tickets": 0
+    },
+    "JumboCactpot": {
+      "LastUpdate": "2022-01-31T18:57:54.6612777Z",
+      "Tickets": [
+        65535,
+        65535,
+        65535
+      ]
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Tourist/1.2.5": {
+        "dependencies": {
+          "DalamudPackager": "2.1.5",
+          "FFXIVWeather.Lumina": "2.0.0"
+        },
+        "runtime": {
+          "Tourist.dll": {}
+        }
+      },
+      "DalamudPackager/2.1.5": {},
+      "FFXIVWeather.Lumina/2.0.0": {
+        "dependencies": {
+          "Lumina": "3.5.1",
+          "Lumina.Excel": "6.0.2"
+        },
+        "runtime": {
+          "lib/net5.0/FFXIVWeather.Lumina.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Lumina/3.5.1": {
+        "runtime": {
+          "lib/net5.0/Lumina.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.5.1.0"
+          }
+        }
+      },
+      "Lumina.Excel/6.0.2": {
+        "dependencies": {
+          "Lumina": "3.5.1"
+        },
+        "runtime": {
+          "lib/net5.0/Lumina.Excel.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "6.0.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tourist/1.2.5": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DalamudPackager/2.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0RMHom/TbYxWzJPTdMOPjuelZY2aacWipp0INPkQrLa31Wy1KAWZ/R/+2sdi02vhk15PthZcpUQqVIwcxprG8A==",
+      "path": "dalamudpackager/2.1.5",
+      "hashPath": "dalamudpackager.2.1.5.nupkg.sha512"
+    },
+    "FFXIVWeather.Lumina/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7GiJJkKRkD+rJUPJdd3E5haloQ7+RRrUdpeJxdLFz4/BJdtA0HA6sbkO48iOp9Scr98B3vlxsY6/BRoRoAfBVA==",
+      "path": "ffxivweather.lumina/2.0.0",
+      "hashPath": "ffxivweather.lumina.2.0.0.nupkg.sha512"
+    },
+    "Lumina/3.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u2AR+L/2J8KIUA+kyB52S/2HXk8E4pZSSHZY/QP5NU01Fq5nMF5PPYjFBkz9LkpdFDGDBpHkE7TcgOC8LP+SRw==",
+      "path": "lumina/3.5.1",
+      "hashPath": "lumina.3.5.1.nupkg.sha512"
+    },
+    "Lumina.Excel/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GV8+LSIjTYHc1HruUQst8eECm8swVuDqqNLV3qkmUGSWf561YxwlCfzkF9sr7hkviyH9OwswCkZfhhMA3glwfw==",
+      "path": "lumina.excel/6.0.2",
+      "hashPath": "lumina.excel.6.0.2.nupkg.sha512"
+    }
+  }
+}

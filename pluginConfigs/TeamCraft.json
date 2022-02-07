@@ -1,0 +1,5 @@
+{
+  "$type": "SamplePlugin.Configuration, TeamCraft",
+  "Version": 0,
+  "SomePropertyToBeSavedAndWithADefault": true
+}

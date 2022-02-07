@@ -1,0 +1,5 @@
+{
+  "$type": "SamplePlugin.Configuration, SamplePlugin",
+  "Version": 0,
+  "SomePropertyToBeSavedAndWithADefault": true
+}

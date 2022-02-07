@@ -1,0 +1,15 @@
+{
+  "Hide": false,
+  "ShowInCombat": true,
+  "OffsetXPosition": 0,
+  "OffsetYPosition": 19,
+  "Scale": 2.0,
+  "Exceptions": [
+    "equipped",
+    "market",
+    "put up for sale",
+    "unable",
+    "affects"
+  ],
+  "Version": 1
+}

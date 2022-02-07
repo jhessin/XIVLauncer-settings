@@ -1,0 +1,37 @@
+{
+  "Disabled": false,
+  "Testing": false,
+  "InstalledFromUrl": null,
+  "IsThirdParty": false,
+  "Author": "daemitus",
+  "Name": "ezMiniCactpot",
+  "Punchline": "Shows the next best move in Mini Cactpot.",
+  "Description": "This plugin highlights tiles and lines in MiniCactpot that represent the best potential action you can take.",
+  "Changelog": null,
+  "Tags": null,
+  "CategoryTags": [
+    "minigames"
+  ],
+  "IsHide": false,
+  "InternalName": "MiniCactpotSolver",
+  "AssemblyVersion": "1.1.0.2",
+  "TestingAssemblyVersion": null,
+  "IsTestingExclusive": false,
+  "RepoUrl": "https://github.com/daemitus/MiniCactpotSolver",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 5,
+  "DownloadCount": 113574,
+  "LastUpdate": 1638847155,
+  "DownloadLinkInstall": "https://kamori.goats.dev/Plugin/Download/MiniCactpotSolver?isUpdate=False&isTesting=False&branch=api5",
+  "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api5/plugins/MiniCactpotSolver/latest.zip",
+  "DownloadLinkTesting": "https://kamori.goats.dev/Plugin/Download/MiniCactpotSolver?isUpdate=False&isTesting=True&branch=api5",
+  "LoadPriority": 0,
+  "ImageUrls": [
+    "https://raw.githubusercontent.com/daemitus/MiniCactpotSolver/master/res/image1.png",
+    "https://raw.githubusercontent.com/daemitus/MiniCactpotSolver/master/res/image2.png"
+  ],
+  "IconUrl": "https://raw.githubusercontent.com/daemitus/MiniCactpotSolver/master/res/icon.png",
+  "AcceptsFeedback": true,
+  "FeedbackMessage": null,
+  "FeedbackWebhook": null
+}

@@ -72,5 +72,12 @@
   "StopwatchLock": false,
   "StopwatchTenths": false,
   "StopwatchDecimalPrecision": 1,
-  "MigrateCountdownOffsetToPercent": false
+  "MigrateCountdownOffsetToPercent": false,
+  "DtrCombatTimeEnabled": false,
+  "DtrCombatTimePrefix": "【 ",
+  "DtrCombatTimeSuffix": "】",
+  "DtrCombatTimeDecimalPrecision": 0,
+  "DtrCombatTimeAlwaysDisableOutsideDuty": false,
+  "DtrCombatTimeEnableHideAfter": false,
+  "DtrCombatTimeHideAfter": 20.0
 }

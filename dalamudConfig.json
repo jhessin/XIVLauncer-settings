@@ -27,7 +27,8 @@
       "Browsingway",
       "NeatNoter",
       "Dalamud.DiscordBridge",
-      "Dalamud.RichPresence"
+      "Dalamud.RichPresence",
+      "ItemSearchPlugin"
     ]
   },
   "DevPluginSettings": {

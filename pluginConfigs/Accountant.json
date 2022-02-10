@@ -1,6 +1,6 @@
 {
   "$type": "Accountant.AccountantConfiguration, Accountant",
-  "Flags": 101759,
+  "Flags": 102271,
   "Version": 4,
   "Enabled": true,
   "WindowVisible": true,
@@ -12,7 +12,7 @@
   "OrderByCrop": false,
   "EnableLeveAllowances": true,
   "EnableSquadron": true,
-  "HideDisabled": false,
+  "HideDisabled": true,
   "EnableMapAllowance": true,
   "ProhibitResize": false,
   "ProhibitMoving": false,

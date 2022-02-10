@@ -1409,6 +1409,39 @@
           "sL": [
             {
               "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "Items",
+              "t": 0,
+              "c": "/xlitem",
+              "k": 0,
+              "kP": false,
+              "sL": null,
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.0,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": false,
+              "cC": 1,
+              "cSp": [
+                8,
+                4
+              ],
+              "cS": 1.0,
+              "cF": 1.0,
+              "cNB": false,
+              "cH": false,
+              "cHC": false,
+              "_i": 0
+            },
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
               "n": "Market Board",
               "t": 0,
               "c": "/pmb",
@@ -3056,6 +3089,39 @@
           "n": "Darksteel Hook",
           "t": 0,
           "c": "//m\n/mlock\n/ac \"Waste Not II\" <wait.4>\n/ac Innovation <wait.4>\n/ac \"Basic Touch\" <wait.5>\n/ac \"Standard Touch\" <wait.5>\n/ac \"Basic Touch\" <wait.5>\n/ac \"Standard Touch\" <wait.5>\n/ac Innovation <wait.4>\n/ac \"Basic Touch\" <wait.5>\n/ac \"Great Strides\" <wait.4>\n/ac \"Byregot's Blessing\" <wait.5>\n/ac Veneration <wait.4>\n/ac \"Basic Synthesis\" <wait.5>\n/ac \"Basic Synthesis\" <wait.5>\n/echo Craft finished <se.1>\n//m",
+          "k": 0,
+          "kP": false,
+          "sL": null,
+          "m": 0,
+          "cl": 4294967295,
+          "clA": 0,
+          "iZ": 1.0,
+          "iO": [
+            0.0,
+            0.0
+          ],
+          "iR": 0.0,
+          "cdA": 0,
+          "cdS": 0,
+          "cW": 140,
+          "cSO": false,
+          "cC": 1,
+          "cSp": [
+            8,
+            4
+          ],
+          "cS": 1.0,
+          "cF": 1.0,
+          "cNB": false,
+          "cH": false,
+          "cHC": false,
+          "_i": 0
+        },
+        {
+          "$type": "QoLBar.ShCfg, QoLBar",
+          "n": "Elixir",
+          "t": 0,
+          "c": "//m\n/mlock\n/ac Innovation <wait.4>\n/ac \"Basic Touch\" <wait.5>\n/ac \"Standard Touch\" <wait.5>\n/ac \"Great Strides\" <wait.4>\n/ac \"Byregot's Blessing\" <wait.5>\n/ac \"Basic Synthesis\" <wait.5>\n/ac \"Basic Synthesis\" <wait.5>\n/echo Craft finished <se.1>\n//m",
           "k": 0,
           "kP": false,
           "sL": null,

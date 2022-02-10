@@ -5,19 +5,19 @@
   },
   "Item2": {
     "Leves": {
-      "Allowances": 61,
-      "LastUpdate": "2022-02-09T12:00:00Z"
+      "Allowances": 55,
+      "LastUpdate": "2022-02-10T00:00:00Z"
     },
     "Squadron": {
-      "MissionEnd": "2022-02-09T17:42:54Z",
-      "TrainingEnd": "2022-02-09T13:14:58Z",
-      "MissionId": 8,
-      "TrainingId": 7,
-      "NewRecruits": false
+      "MissionEnd": "2022-02-10T11:59:18Z",
+      "TrainingEnd": "0001-01-01T00:00:00",
+      "MissionId": 16,
+      "TrainingId": 0,
+      "NewRecruits": true
     },
-    "Map": "2022-02-03T14:00:10.7723236Z",
+    "Map": "2022-02-10T13:12:46.9233494Z",
     "MiniCactpot": {
-      "LastUpdate": "2022-02-08T23:40:14.9298292Z",
+      "LastUpdate": "2022-02-09T19:09:28.9679239Z",
       "Tickets": 3
     },
     "JumboCactpot": {

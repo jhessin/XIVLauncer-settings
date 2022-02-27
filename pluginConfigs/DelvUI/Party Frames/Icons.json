@@ -1,0 +1,121 @@
+{
+  "$type": "DelvUI.Interface.Party.PartyFramesIconsConfig, DelvUI",
+  "Role": {
+    "$type": "DelvUI.Interface.Party.PartyFramesRoleIconConfig, DelvUI",
+    "Style": 0,
+    "UseRoleIcons": false,
+    "UseSpecificDPSRoleIcons": false,
+    "FrameAnchor": 4,
+    "Size": {
+      "$type": "System.Numerics.Vector2, System.Private.CoreLib",
+      "X": 20.0,
+      "Y": 20.0
+    },
+    "Anchor": 4,
+    "Strata": 4,
+    "Position": {
+      "$type": "System.Numerics.Vector2, System.Private.CoreLib",
+      "X": 20.0,
+      "Y": 0.0
+    },
+    "Enabled": true,
+    "StrataLevel": 4,
+    "Version": "1.0.1.3"
+  },
+  "Leader": {
+    "$type": "DelvUI.Interface.Party.PartyFramesLeaderIconConfig, DelvUI",
+    "FrameAnchor": 4,
+    "Size": {
+      "$type": "System.Numerics.Vector2, System.Private.CoreLib",
+      "X": 24.0,
+      "Y": 24.0
+    },
+    "Anchor": 4,
+    "Strata": 4,
+    "Position": {
+      "$type": "System.Numerics.Vector2, System.Private.CoreLib",
+      "X": -12.0,
+      "Y": -12.0
+    },
+    "Enabled": true,
+    "StrataLevel": 4,
+    "Version": "1.0.1.3"
+  },
+  "PlayerStatus": {
+    "$type": "DelvUI.Interface.Party.PartyFramesPlayerStatusConfig, DelvUI",
+    "HideName": false,
+    "Icon": {
+      "$type": "DelvUI.Interface.GeneralElements.IconConfig, DelvUI",
+      "FrameAnchor": 3,
+      "Size": {
+        "$type": "System.Numerics.Vector2, System.Private.CoreLib",
+        "X": 16.0,
+        "Y": 16.0
+      },
+      "Anchor": 3,
+      "Strata": 4,
+      "Position": {
+        "$type": "System.Numerics.Vector2, System.Private.CoreLib",
+        "X": 0.0,
+        "Y": 5.0
+      },
+      "Enabled": true,
+      "StrataLevel": 4,
+      "Version": "1.0.1.3"
+    },
+    "Label": {
+      "$type": "DelvUI.Interface.GeneralElements.LabelConfig, DelvUI",
+      "FontID": null,
+      "FrameAnchor": 0,
+      "TextAnchor": 0,
+      "Color": {
+        "$type": "DelvUI.Config.PluginConfigColor, DelvUI",
+        "Vector": {
+          "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0,
+          "W": 1.0
+        }
+      },
+      "ShowOutline": true,
+      "OutlineColor": {
+        "$type": "DelvUI.Config.PluginConfigColor, DelvUI",
+        "Vector": {
+          "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "W": 1.0
+        }
+      },
+      "ShowShadow": false,
+      "ShadowColor": {
+        "$type": "DelvUI.Config.PluginConfigColor, DelvUI",
+        "Vector": {
+          "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "W": 1.0
+        }
+      },
+      "ShadowOffset": 2,
+      "UseJobColor": false,
+      "UseRoleColor": false,
+      "Strata": 6,
+      "Position": {
+        "$type": "System.Numerics.Vector2, System.Private.CoreLib",
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Enabled": true,
+      "StrataLevel": 6,
+      "Version": "1.0.1.3"
+    },
+    "Enabled": true,
+    "Version": "1.0.1.3"
+  },
+  "Enabled": true,
+  "Version": "1.0.1.3"
+}

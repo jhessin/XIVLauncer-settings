@@ -159,9 +159,9 @@
   },
   "AlertSpiritbondFullBg": {
     "$type": "System.Numerics.Vector4, System.Private.CoreLib",
-    "X": 1.0,
-    "Y": 1.0,
-    "Z": 1.0,
+    "X": 0.9717742,
+    "Y": 0.1136349,
+    "Z": 0.1136349,
     "W": 0.2
   },
   "Version": 0

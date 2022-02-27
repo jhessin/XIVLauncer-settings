@@ -1,0 +1,6 @@
+{
+  "$type": "DelvUI.Interface.GeneralElements.WindowClippingConfig, DelvUI",
+  "Mode": 2,
+  "Enabled": false,
+  "Version": "1.0.1.3"
+}

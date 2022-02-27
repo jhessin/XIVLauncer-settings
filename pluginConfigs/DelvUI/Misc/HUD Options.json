@@ -1,0 +1,100 @@
+{
+  "$type": "DelvUI.Interface.GeneralElements.HUDOptionsConfig, DelvUI",
+  "UseGlobalHudShift": true,
+  "HudOffset": {
+    "$type": "System.Numerics.Vector2, System.Private.CoreLib",
+    "X": -1013.0,
+    "Y": 0.0
+  },
+  "DimConfigWindow": false,
+  "MouseoverEnabled": true,
+  "MouseoverAutomaticMode": true,
+  "HideOutsideOfCombat": false,
+  "AlwaysHidePlayerFrameWhenDelvUIHidden": false,
+  "ShowDelvUIFramesInDuty": false,
+  "ShowDelvUIFramesOnWeaponDrawn": false,
+  "HideInGoldSaucer": false,
+  "HidePlayerFrameAtFullHP": false,
+  "HideOnlyJobPackHudOutsideOfCombat": false,
+  "ShowJobPackInDuty": false,
+  "ShowJobPackOnWeaponDrawn": false,
+  "AutomaticPreviewDisabling": true,
+  "HideDefaultJobGauges": false,
+  "HideDefaultCastbar": false,
+  "HideDefaultPulltimer": false,
+  "EnableCombatActionBars": false,
+  "ShowCombatActionBarsInDuty": false,
+  "ShowCombatActionBarsOnWeaponDrawn": false,
+  "CombatActionBarsWithCrossHotbar": false,
+  "CombatActionBars": [],
+  "CastBarOriginalPositions": [
+    {
+      "$type": "System.Numerics.Vector2, System.Private.CoreLib",
+      "X": 451.0,
+      "Y": 477.0
+    },
+    {
+      "$type": "System.Numerics.Vector2, System.Private.CoreLib",
+      "X": 0.0,
+      "Y": 0.0
+    },
+    {
+      "$type": "System.Numerics.Vector2, System.Private.CoreLib",
+      "X": 0.0,
+      "Y": 0.0
+    },
+    {
+      "$type": "System.Numerics.Vector2, System.Private.CoreLib",
+      "X": 0.0,
+      "Y": 0.0
+    }
+  ],
+  "PulltimerOriginalPositions": [
+    {
+      "$type": "System.Numerics.Vector2, System.Private.CoreLib",
+      "X": 0.0,
+      "Y": 0.0
+    },
+    {
+      "$type": "System.Numerics.Vector2, System.Private.CoreLib",
+      "X": 0.0,
+      "Y": 0.0
+    },
+    {
+      "$type": "System.Numerics.Vector2, System.Private.CoreLib",
+      "X": 0.0,
+      "Y": 0.0
+    },
+    {
+      "$type": "System.Numerics.Vector2, System.Private.CoreLib",
+      "X": 0.0,
+      "Y": 0.0
+    }
+  ],
+  "JobGaugeOriginalPositions": [
+    {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Numerics.Vector2, System.Private.CoreLib]], System.Private.CoreLib",
+      "JobHudWAR": {
+        "$type": "System.Numerics.Vector2, System.Private.CoreLib",
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "JobHudWAR0": {
+        "$type": "System.Numerics.Vector2, System.Private.CoreLib",
+        "X": 446.0,
+        "Y": 501.0
+      }
+    },
+    {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Numerics.Vector2, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Numerics.Vector2, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Numerics.Vector2, System.Private.CoreLib]], System.Private.CoreLib"
+    }
+  ],
+  "Enabled": true,
+  "Version": "1.0.1.3"
+}

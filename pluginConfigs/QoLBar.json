@@ -2104,6 +2104,39 @@
             },
             {
               "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "Daily Duties",
+              "t": 0,
+              "c": "/dd",
+              "k": 0,
+              "kP": false,
+              "sL": null,
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.0,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": false,
+              "cC": 1,
+              "cSp": [
+                8,
+                4
+              ],
+              "cS": 1.0,
+              "cF": 1.0,
+              "cNB": false,
+              "cH": false,
+              "cHC": false,
+              "_i": 0
+            },
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
               "n": "Compass",
               "t": 0,
               "c": "/compass",
@@ -3160,8 +3193,8 @@
       "e": true,
       "cT": false,
       "p": [
-        -0.048828125,
-        -0.0013020834
+        -0.044921875,
+        0.1484375
       ],
       "l": false,
       "co": 1,

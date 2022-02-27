@@ -4,7 +4,7 @@
   "DutyFinderTaskbarFlash": true,
   "DutyFinderChatMessage": true,
   "LanguageOverride": "en",
-  "LastVersion": "6.3.0.3",
+  "LastVersion": "6.3.0.4",
   "LastChangelogMajorMinor": "6.3.",
   "GeneralChatType": 1,
   "DoPluginTest": false,
@@ -28,7 +28,18 @@
       "NeatNoter",
       "Dalamud.DiscordBridge",
       "Dalamud.RichPresence",
-      "ItemSearchPlugin"
+      "ItemSearchPlugin",
+      "XIVChat",
+      "ChatTyper",
+      "Compass",
+      "DailyDuty",
+      "DelvUI",
+      "DeepDungeonDex",
+      "DeviceChangeFix",
+      "EnemyListDebuffs",
+      "ExpandedSearchInfo",
+      "FPSPlugin",
+      "InventoryTools"
     ]
   },
   "DevPluginSettings": {

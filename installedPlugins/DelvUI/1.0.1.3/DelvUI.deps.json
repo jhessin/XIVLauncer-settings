@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "DelvUI/1.0.0": {
+        "dependencies": {
+          "Colourful": "3.0.0",
+          "DalamudPackager": "2.1.5"
+        },
+        "runtime": {
+          "DelvUI.dll": {}
+        }
+      },
+      "Colourful/3.0.0": {
+        "runtime": {
+          "lib/net5.0/Colourful.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "DalamudPackager/2.1.5": {}
+    }
+  },
+  "libraries": {
+    "DelvUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Colourful/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NiEjyLaVklmaEknZ11nILNe10lRFYsd5g8qSeee8gAGEiF2koUC9aFS/8AtSvpUUL1bz6mRECcCmVSJWaruwbw==",
+      "path": "colourful/3.0.0",
+      "hashPath": "colourful.3.0.0.nupkg.sha512"
+    },
+    "DalamudPackager/2.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0RMHom/TbYxWzJPTdMOPjuelZY2aacWipp0INPkQrLa31Wy1KAWZ/R/+2sdi02vhk15PthZcpUQqVIwcxprG8A==",
+      "path": "dalamudpackager/2.1.5",
+      "hashPath": "dalamudpackager.2.1.5.nupkg.sha512"
+    }
+  }
+}

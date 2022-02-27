@@ -1,0 +1,22 @@
+{
+  "$type": "DelvUI.Interface.PartyCooldowns.PartyCooldownsConfig, DelvUI",
+  "Preview": false,
+  "GrowthDirection": 0,
+  "Padding": {
+    "$type": "System.Numerics.Vector2, System.Private.CoreLib",
+    "X": 0.0,
+    "Y": -1.0
+  },
+  "ShowTooltips": true,
+  "ShowOnlyInDuties": true,
+  "ShowWhenSolo": false,
+  "Strata": null,
+  "Position": {
+    "$type": "System.Numerics.Vector2, System.Private.CoreLib",
+    "X": -412.0,
+    "Y": -284.0
+  },
+  "Enabled": true,
+  "StrataLevel": 0,
+  "Version": "1.0.1.3"
+}

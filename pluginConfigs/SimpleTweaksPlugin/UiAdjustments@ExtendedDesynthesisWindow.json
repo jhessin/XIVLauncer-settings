@@ -1,5 +1,6 @@
 {
   "BlockClickOnGearset": true,
   "YellowForSkillGain": true,
+  "Delta": false,
   "Version": 1
 }

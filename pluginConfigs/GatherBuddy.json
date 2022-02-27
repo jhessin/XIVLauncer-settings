@@ -65,7 +65,7 @@
       "MinuteOffset": 0,
       "Type": "Node",
       "SoundId": 42,
-      "Enabled": true,
+      "Enabled": false,
       "PrintMessage": true
     },
     {
@@ -90,5 +90,5 @@
     }
   ],
   "FixedFish": [],
-  "FishSortOder": 3
+  "FishSortOder": 1
 }

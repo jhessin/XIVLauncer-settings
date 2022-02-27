@@ -1,0 +1,36 @@
+{
+  "Disabled": false,
+  "Testing": false,
+  "InstalledFromUrl": null,
+  "IsThirdParty": false,
+  "Author": "MidoriKami",
+  "Name": "DailyDuty",
+  "Punchline": "Easily Track Daily and Weekly tasks.",
+  "Description": "Automatically track and complete many daily and weekly tasks.",
+  "Changelog": "This took several days of programming, experimenting, and learning to complete, but it's here now!\r\n\r\nAdded: Options for smaller/more condensed Timers Bars (Thx Chuggo)\r\nAdded: Option to suppress any messages tagged \"Debug\"\r\n\r\nFixed: All modules now check if the module is enabled before sending notifications\r\nFixed: Duty Roulette detecting any zone change as a \"roulette complete\" change\r\nFixed: Fashion Report going negative on first turn-in for the week\r\nFixed: Purges \"Zero\" player from older configs to prevent crashes\r\n\r\nAdded: Wondrous Tails Overlay for Duty Finder\r\n\r\nShows the status of the duty relative to your Wondrous Tails book\r\nGolden Clover - Can complete for a Wondrous Tails Stamp\r\nFaded Clover - Already completed in your Wondrous Tails Book\r\n\r\nAdded: Duty Roulette Coloring\r\nAdded: Configurable Color options for Duty Roulettes\r\n\r\n![image](https://user-images.githubusercontent.com/9083275/154908658-4b4b9e66-7201-4ee4-a5c1-a269330638a3.png)\r\n\r\n![image](https://user-images.githubusercontent.com/9083275/154908613-85c2e08d-46fb-4c2c-9ac2-c602d0d2bcbd.png)\r\n",
+  "Tags": [
+    "utility"
+  ],
+  "CategoryTags": [
+    "utility"
+  ],
+  "IsHide": false,
+  "InternalName": "DailyDuty",
+  "AssemblyVersion": "1.0.5.0",
+  "TestingAssemblyVersion": null,
+  "IsTestingExclusive": false,
+  "RepoUrl": "https://github.com/MidoriKami/DailyDuty",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 5,
+  "DownloadCount": 55311,
+  "LastUpdate": 1645428578,
+  "DownloadLinkInstall": "https://kamori.goats.dev/Plugin/Download/DailyDuty?isUpdate=False&isTesting=False&branch=api5",
+  "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api5/DailyDuty/plugins/latest.zip",
+  "DownloadLinkTesting": "https://kamori.goats.dev/Plugin/Download/DailyDuty?isUpdate=False&isTesting=True&branch=api5",
+  "LoadPriority": 0,
+  "ImageUrls": null,
+  "IconUrl": null,
+  "AcceptsFeedback": true,
+  "FeedbackMessage": null,
+  "FeedbackWebhook": null
+}

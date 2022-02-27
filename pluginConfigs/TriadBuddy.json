@@ -133,11 +133,11 @@
         "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
         "48": 5,
         "53": 3,
-        "43": 2,
+        "43": 3,
         "66": 1
       },
-      "NumCoins": 2458,
-      "NumWins": 21,
+      "NumCoins": 2568,
+      "NumWins": 22,
       "NumDraws": 3,
       "NumLosses": 1
     },
@@ -335,6 +335,50 @@
       "NumWins": 5,
       "NumDraws": 2,
       "NumLosses": 1
+    },
+    "2293773": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "12": 2
+      },
+      "NumCoins": 150,
+      "NumWins": 3,
+      "NumDraws": 0,
+      "NumLosses": 0
+    },
+    "2293781": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "45": 5,
+        "50": 2
+      },
+      "NumCoins": 1180,
+      "NumWins": 20,
+      "NumDraws": 0,
+      "NumLosses": 0
+    },
+    "2293786": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "61": 1
+      },
+      "NumCoins": 297,
+      "NumWins": 2,
+      "NumDraws": 1,
+      "NumLosses": 1
+    },
+    "2293775": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "NumCoins": 94,
+      "NumWins": 2,
+      "NumDraws": 0,
+      "NumLosses": 0
     }
   }
 }

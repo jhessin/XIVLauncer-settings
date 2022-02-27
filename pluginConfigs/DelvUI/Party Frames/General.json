@@ -1,0 +1,21 @@
+{
+  "$type": "DelvUI.Interface.Party.PartyFramesConfig, DelvUI",
+  "Preview": false,
+  "Rows": 4,
+  "Columns": 2,
+  "BarsAnchor": 4,
+  "FillRowsFirst": true,
+  "PlayerOrderOverrideEnabled": false,
+  "PlayerOrder": 1,
+  "ShowWhenSolo": false,
+  "ShowChocobo": true,
+  "Strata": null,
+  "Position": {
+    "$type": "System.Numerics.Vector2, System.Private.CoreLib",
+    "X": -521.0,
+    "Y": -120.0
+  },
+  "Enabled": true,
+  "StrataLevel": 0,
+  "Version": "1.0.1.3"
+}

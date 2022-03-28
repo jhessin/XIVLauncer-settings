@@ -1,0 +1,37 @@
+{
+  "Disabled": false,
+  "Testing": false,
+  "InstalledFromUrl": null,
+  "IsThirdParty": false,
+  "Author": "UnknownX",
+  "Name": "QoL Bar",
+  "Punchline": "Customizable ImGui hotbars",
+  "Description": "A plugin designed to provide a simple, customizable and always available interface for chat commands\nor other plugins to alleviate the need for using macros and hotbar space to achieve similar results.\n\nThe plugin should initially appear as a small box on the bottom center of the game window.",
+  "Changelog": "**QoL Bar v2.3.0.0** is now available!\r\n\r\nChanges:\r\n- Revamped Condition Sets\r\n  - Significantly reworked the UI\r\n  - Significantly improved speed\r\n  - Can now be exported\r\n  - Added party (# members, pet, chocobo) and held key conditions\r\n  - Added a preset list\r\n  - New config format\r\n- Added /performance command\r\n- Fixed HUD layout condition\r\n- Fixed aether compass",
+  "Tags": null,
+  "CategoryTags": [
+    "UI",
+    "utility"
+  ],
+  "IsHide": false,
+  "InternalName": "QoLBar",
+  "AssemblyVersion": "2.3.0.0",
+  "TestingAssemblyVersion": null,
+  "IsTestingExclusive": false,
+  "RepoUrl": "https://github.com/UnknownX7/QoLBar",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 5,
+  "DownloadCount": 50089,
+  "LastUpdate": 1646976832,
+  "DownloadLinkInstall": "https://kamori.goats.dev/Plugin/Download/QoLBar?isUpdate=False&isTesting=False&branch=api5",
+  "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api5/QoLBar/plugins/latest.zip",
+  "DownloadLinkTesting": "https://kamori.goats.dev/Plugin/Download/QoLBar?isUpdate=False&isTesting=True&branch=api5",
+  "LoadPriority": 0,
+  "ImageUrls": [
+    ""
+  ],
+  "IconUrl": "",
+  "AcceptsFeedback": true,
+  "FeedbackMessage": null,
+  "FeedbackWebhook": null
+}

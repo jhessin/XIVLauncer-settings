@@ -1,9 +1,9 @@
 {
   "$type": "Accountant.AccountantConfiguration, Accountant",
-  "Flags": 102271,
+  "Flags": 102269,
   "Version": 4,
   "Enabled": true,
-  "WindowVisible": true,
+  "WindowVisible": false,
   "EnableRetainers": true,
   "EnableAirships": true,
   "EnableSubmersibles": true,

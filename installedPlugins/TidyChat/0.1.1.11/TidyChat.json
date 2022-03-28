@@ -1,0 +1,39 @@
+{
+  "Disabled": false,
+  "Testing": false,
+  "InstalledFromUrl": null,
+  "IsThirdParty": false,
+  "Author": "Nana",
+  "Name": "Tidy Chat",
+  "Punchline": "Keeps your chat tidy.",
+  "Description": "In-depth filters for a less cluttered chat.",
+  "Changelog": "**Improvements**\r\n\r\n- The Instance DTR Bar, if enabled, now fetches the current instance upon login instead of requiring the user to change zones first.\r\n\r\nTh-th-th-that's all, folks! \r\n\r\nI wanted to bundle this with some additional updates but I don't have the time for roughly the next week and didn't want this minor improvement to have to wait 2-3 weeks to be released.",
+  "Tags": [
+    "Chat",
+    "Filter",
+    "Emote",
+    "Spam"
+  ],
+  "CategoryTags": [
+    "Social"
+  ],
+  "IsHide": false,
+  "InternalName": "TidyChat",
+  "AssemblyVersion": "0.1.1.11",
+  "TestingAssemblyVersion": null,
+  "IsTestingExclusive": false,
+  "RepoUrl": "https://github.com/NadyaNayme/TidyChat",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 5,
+  "DownloadCount": 14528,
+  "LastUpdate": 1647498786,
+  "DownloadLinkInstall": "https://kamori.goats.dev/Plugin/Download/TidyChat?isUpdate=False&isTesting=False&branch=api5",
+  "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api5/TidyChat/plugins/latest.zip",
+  "DownloadLinkTesting": "https://kamori.goats.dev/Plugin/Download/TidyChat?isUpdate=False&isTesting=True&branch=api5",
+  "LoadPriority": 0,
+  "ImageUrls": null,
+  "IconUrl": "https://raw.githubusercontent.com/NadyaNayme/TidyChat/master/images/icon.png",
+  "AcceptsFeedback": true,
+  "FeedbackMessage": null,
+  "FeedbackWebhook": null
+}

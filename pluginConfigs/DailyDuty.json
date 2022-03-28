@@ -2,156 +2,543 @@
   "$type": "DailyDuty.Data.Configuration, DailyDuty",
   "System": {
     "$type": "DailyDuty.Data.SettingsObjects.SystemSettings, DailyDuty",
-    "ZoneChangeDelayRate": 1,
+    "MinutesBetweenThrottledMessages": 5,
     "ShowSaveDebugInfo": false,
     "ClickableLinks": false,
-    "EnableDebugOutput": false
+    "EnableDebugOutput": false,
+    "ShowVersionNumber": true,
+    "SingleColumnSettings": false
   },
-  "TimerSettings": {
-    "$type": "DailyDuty.Data.SettingsObjects.CountdownTimerSettings, DailyDuty",
-    "TimerWidth": 200,
-    "DailyCountdownEnabled": true,
-    "DailyCountdownColor": {
-      "$type": "System.Numerics.Vector4, System.Private.CoreLib",
-      "X": 0.14509805,
-      "Y": 0.65882355,
-      "Z": 1.0,
-      "W": 1.0
+  "Timers": {
+    "$type": "DailyDuty.Data.SettingsObjects.Timers.TimersSettings, DailyDuty",
+    "Daily": {
+      "$type": "DailyDuty.Data.SettingsObjects.Timers.TimerSettings, DailyDuty",
+      "Enabled": false,
+      "TimerStyle": {
+        "$type": "DailyDuty.Data.Graphical.TimerStyle, DailyDuty",
+        "Options": {
+          "$type": "DailyDuty.Data.Graphical.TimerOptions, DailyDuty",
+          "UseShortName": false,
+          "ShowSeconds": true,
+          "CondensedDisplay": false
+        },
+        "BackgroundColor": {
+          "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "W": 1.0
+        },
+        "ForegroundColor": {
+          "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+          "X": 0.6901961,
+          "Y": 0.14901961,
+          "Z": 0.9254902,
+          "W": 1.0
+        },
+        "TextColor": {
+          "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0,
+          "W": 1.0
+        },
+        "Padding": 5,
+        "Size": 200,
+        "StretchToFit": false
+      }
     },
-    "DailyCountdownBgColor": {
-      "$type": "System.Numerics.Vector4, System.Private.CoreLib",
-      "X": 0.0,
-      "Y": 0.0,
-      "Z": 0.0,
-      "W": 1.0
+    "Weekly": {
+      "$type": "DailyDuty.Data.SettingsObjects.Timers.TimerSettings, DailyDuty",
+      "Enabled": false,
+      "TimerStyle": {
+        "$type": "DailyDuty.Data.Graphical.TimerStyle, DailyDuty",
+        "Options": {
+          "$type": "DailyDuty.Data.Graphical.TimerOptions, DailyDuty",
+          "UseShortName": false,
+          "ShowSeconds": true,
+          "CondensedDisplay": false
+        },
+        "BackgroundColor": {
+          "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "W": 1.0
+        },
+        "ForegroundColor": {
+          "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+          "X": 0.6901961,
+          "Y": 0.14901961,
+          "Z": 0.9254902,
+          "W": 1.0
+        },
+        "TextColor": {
+          "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0,
+          "W": 1.0
+        },
+        "Padding": 5,
+        "Size": 200,
+        "StretchToFit": false
+      }
     },
-    "WeeklyCountdownEnabled": true,
-    "WeeklyCountdownColor": {
-      "$type": "System.Numerics.Vector4, System.Private.CoreLib",
-      "X": 0.6901961,
-      "Y": 0.14901961,
-      "Z": 0.9254902,
-      "W": 1.0
+    "FashionReport": {
+      "$type": "DailyDuty.Data.SettingsObjects.Timers.TimerSettings, DailyDuty",
+      "Enabled": false,
+      "TimerStyle": {
+        "$type": "DailyDuty.Data.Graphical.TimerStyle, DailyDuty",
+        "Options": {
+          "$type": "DailyDuty.Data.Graphical.TimerOptions, DailyDuty",
+          "UseShortName": false,
+          "ShowSeconds": true,
+          "CondensedDisplay": false
+        },
+        "BackgroundColor": {
+          "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "W": 1.0
+        },
+        "ForegroundColor": {
+          "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+          "X": 0.6901961,
+          "Y": 0.14901961,
+          "Z": 0.9254902,
+          "W": 1.0
+        },
+        "TextColor": {
+          "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0,
+          "W": 1.0
+        },
+        "Padding": 5,
+        "Size": 200,
+        "StretchToFit": false
+      }
     },
-    "WeeklyCountdownBgColor": {
-      "$type": "System.Numerics.Vector4, System.Private.CoreLib",
-      "X": 0.0,
-      "Y": 0.0,
-      "Z": 0.0,
-      "W": 1.0
+    "TreasureMap": {
+      "$type": "DailyDuty.Data.SettingsObjects.Timers.TimerSettings, DailyDuty",
+      "Enabled": false,
+      "TimerStyle": {
+        "$type": "DailyDuty.Data.Graphical.TimerStyle, DailyDuty",
+        "Options": {
+          "$type": "DailyDuty.Data.Graphical.TimerOptions, DailyDuty",
+          "UseShortName": false,
+          "ShowSeconds": true,
+          "CondensedDisplay": false
+        },
+        "BackgroundColor": {
+          "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "W": 1.0
+        },
+        "ForegroundColor": {
+          "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+          "X": 0.6901961,
+          "Y": 0.14901961,
+          "Z": 0.9254902,
+          "W": 1.0
+        },
+        "TextColor": {
+          "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0,
+          "W": 1.0
+        },
+        "Padding": 5,
+        "Size": 200,
+        "StretchToFit": false
+      }
     },
-    "FashionReportCountdownEnabled": false,
-    "FashionReportCountdownColor": {
-      "$type": "System.Numerics.Vector4, System.Private.CoreLib",
-      "X": 0.133,
-      "Y": 0.545,
-      "Z": 0.1333,
-      "W": 1.0
+    "JumboCactpot": {
+      "$type": "DailyDuty.Data.SettingsObjects.Timers.TimerSettings, DailyDuty",
+      "Enabled": false,
+      "TimerStyle": {
+        "$type": "DailyDuty.Data.Graphical.TimerStyle, DailyDuty",
+        "Options": {
+          "$type": "DailyDuty.Data.Graphical.TimerOptions, DailyDuty",
+          "UseShortName": false,
+          "ShowSeconds": true,
+          "CondensedDisplay": false
+        },
+        "BackgroundColor": {
+          "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "W": 1.0
+        },
+        "ForegroundColor": {
+          "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+          "X": 0.6901961,
+          "Y": 0.14901961,
+          "Z": 0.9254902,
+          "W": 1.0
+        },
+        "TextColor": {
+          "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0,
+          "W": 1.0
+        },
+        "Padding": 5,
+        "Size": 200,
+        "StretchToFit": false
+      }
     },
-    "FashionReportCountdownBgColor": {
-      "$type": "System.Numerics.Vector4, System.Private.CoreLib",
-      "X": 0.0,
-      "Y": 0.0,
-      "Z": 0.0,
-      "W": 1.0
-    },
-    "TreasureMapCountdownEnabled": false,
-    "TreasureMapCountdownColor": {
-      "$type": "System.Numerics.Vector4, System.Private.CoreLib",
-      "X": 0.14509805,
-      "Y": 0.65882355,
-      "Z": 1.0,
-      "W": 1.0
-    },
-    "TreasureMapCountdownBgColor": {
-      "$type": "System.Numerics.Vector4, System.Private.CoreLib",
-      "X": 0.0,
-      "Y": 0.0,
-      "Z": 0.0,
-      "W": 1.0
-    },
-    "JumboCactpotCountdownEnabled": false,
-    "JumboCactpotCountdownColor": {
-      "$type": "System.Numerics.Vector4, System.Private.CoreLib",
-      "X": 0.6901961,
-      "Y": 0.14901961,
-      "Z": 0.9254902,
-      "W": 1.0
-    },
-    "JumboCactpotCountdownBgColor": {
-      "$type": "System.Numerics.Vector4, System.Private.CoreLib",
-      "X": 0.0,
-      "Y": 0.0,
-      "Z": 0.0,
-      "W": 1.0
+    "LeveAllowance": {
+      "$type": "DailyDuty.Data.SettingsObjects.Timers.TimerSettings, DailyDuty",
+      "Enabled": false,
+      "TimerStyle": {
+        "$type": "DailyDuty.Data.Graphical.TimerStyle, DailyDuty",
+        "Options": {
+          "$type": "DailyDuty.Data.Graphical.TimerOptions, DailyDuty",
+          "UseShortName": false,
+          "ShowSeconds": true,
+          "CondensedDisplay": false
+        },
+        "BackgroundColor": {
+          "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "W": 1.0
+        },
+        "ForegroundColor": {
+          "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+          "X": 0.6901961,
+          "Y": 0.14901961,
+          "Z": 0.9254902,
+          "W": 1.0
+        },
+        "TextColor": {
+          "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0,
+          "W": 1.0
+        },
+        "Padding": 5,
+        "Size": 200,
+        "StretchToFit": false
+      }
     }
   },
-  "TodoWindowSettings": {
-    "$type": "DailyDuty.Data.SettingsObjects.WindowSettings.TodoWindowSettings, DailyDuty",
-    "ShowDaily": true,
-    "ShowWeekly": true,
-    "HideWhenTasksComplete": true,
-    "ShowTasksWhenComplete": false,
-    "HeaderColor": {
-      "$type": "System.Numerics.Vector4, System.Private.CoreLib",
-      "X": 1.0,
-      "Y": 1.0,
-      "Z": 1.0,
-      "W": 1.0
+  "Windows": {
+    "$type": "DailyDuty.Data.SettingsObjects.WindowsSettings, DailyDuty",
+    "Todo": {
+      "$type": "DailyDuty.Data.SettingsObjects.Windows.TodoWindowSettings, DailyDuty",
+      "ShowDaily": true,
+      "ShowWeekly": true,
+      "HideWhenTasksComplete": false,
+      "ShowTasksWhenComplete": false,
+      "Anchor": 0,
+      "Style": 0,
+      "Colors": {
+        "$type": "DailyDuty.Data.SettingsObjects.Windows.SubComponents.TaskColors, DailyDuty",
+        "HeaderColor": {
+          "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0,
+          "W": 1.0
+        },
+        "IncompleteColor": {
+          "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "W": 1.0
+        },
+        "CompleteColor": {
+          "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+          "X": 0.0,
+          "Y": 1.0,
+          "Z": 0.0,
+          "W": 1.0
+        }
+      },
+      "ClickThrough": false,
+      "HideInDuty": true,
+      "Open": false,
+      "Opacity": 1.0
     },
-    "IncompleteColor": {
-      "$type": "System.Numerics.Vector4, System.Private.CoreLib",
-      "X": 1.0,
-      "Y": 0.0,
-      "Z": 0.0,
-      "W": 1.0
+    "Settings": {
+      "$type": "DailyDuty.Data.SettingsObjects.Windows.SettingsWindowSettings, DailyDuty",
+      "ClickThrough": false,
+      "HideInDuty": true,
+      "Open": false,
+      "Opacity": 1.0
     },
-    "CompleteColor": {
-      "$type": "System.Numerics.Vector4, System.Private.CoreLib",
-      "X": 0.0,
-      "Y": 1.0,
-      "Z": 0.0,
-      "W": 1.0
+    "Timers": {
+      "$type": "DailyDuty.Data.SettingsObjects.Windows.TimersWindowSettings, DailyDuty",
+      "TimersSettings": {
+        "$type": "DailyDuty.Data.SettingsObjects.Timers.TimersSettings, DailyDuty",
+        "Daily": {
+          "$type": "DailyDuty.Data.SettingsObjects.Timers.TimerSettings, DailyDuty",
+          "Enabled": false,
+          "TimerStyle": {
+            "$type": "DailyDuty.Data.Graphical.TimerStyle, DailyDuty",
+            "Options": {
+              "$type": "DailyDuty.Data.Graphical.TimerOptions, DailyDuty",
+              "UseShortName": false,
+              "ShowSeconds": true,
+              "CondensedDisplay": false
+            },
+            "BackgroundColor": {
+              "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "ForegroundColor": {
+              "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+              "X": 0.6901961,
+              "Y": 0.14901961,
+              "Z": 0.9254902,
+              "W": 1.0
+            },
+            "TextColor": {
+              "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0,
+              "W": 1.0
+            },
+            "Padding": 5,
+            "Size": 200,
+            "StretchToFit": false
+          }
+        },
+        "Weekly": {
+          "$type": "DailyDuty.Data.SettingsObjects.Timers.TimerSettings, DailyDuty",
+          "Enabled": false,
+          "TimerStyle": {
+            "$type": "DailyDuty.Data.Graphical.TimerStyle, DailyDuty",
+            "Options": {
+              "$type": "DailyDuty.Data.Graphical.TimerOptions, DailyDuty",
+              "UseShortName": false,
+              "ShowSeconds": true,
+              "CondensedDisplay": false
+            },
+            "BackgroundColor": {
+              "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "ForegroundColor": {
+              "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+              "X": 0.6901961,
+              "Y": 0.14901961,
+              "Z": 0.9254902,
+              "W": 1.0
+            },
+            "TextColor": {
+              "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0,
+              "W": 1.0
+            },
+            "Padding": 5,
+            "Size": 200,
+            "StretchToFit": false
+          }
+        },
+        "FashionReport": {
+          "$type": "DailyDuty.Data.SettingsObjects.Timers.TimerSettings, DailyDuty",
+          "Enabled": false,
+          "TimerStyle": {
+            "$type": "DailyDuty.Data.Graphical.TimerStyle, DailyDuty",
+            "Options": {
+              "$type": "DailyDuty.Data.Graphical.TimerOptions, DailyDuty",
+              "UseShortName": false,
+              "ShowSeconds": true,
+              "CondensedDisplay": false
+            },
+            "BackgroundColor": {
+              "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "ForegroundColor": {
+              "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+              "X": 0.6901961,
+              "Y": 0.14901961,
+              "Z": 0.9254902,
+              "W": 1.0
+            },
+            "TextColor": {
+              "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0,
+              "W": 1.0
+            },
+            "Padding": 5,
+            "Size": 200,
+            "StretchToFit": false
+          }
+        },
+        "TreasureMap": {
+          "$type": "DailyDuty.Data.SettingsObjects.Timers.TimerSettings, DailyDuty",
+          "Enabled": false,
+          "TimerStyle": {
+            "$type": "DailyDuty.Data.Graphical.TimerStyle, DailyDuty",
+            "Options": {
+              "$type": "DailyDuty.Data.Graphical.TimerOptions, DailyDuty",
+              "UseShortName": false,
+              "ShowSeconds": true,
+              "CondensedDisplay": false
+            },
+            "BackgroundColor": {
+              "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "ForegroundColor": {
+              "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+              "X": 0.6901961,
+              "Y": 0.14901961,
+              "Z": 0.9254902,
+              "W": 1.0
+            },
+            "TextColor": {
+              "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0,
+              "W": 1.0
+            },
+            "Padding": 5,
+            "Size": 200,
+            "StretchToFit": false
+          }
+        },
+        "JumboCactpot": {
+          "$type": "DailyDuty.Data.SettingsObjects.Timers.TimerSettings, DailyDuty",
+          "Enabled": false,
+          "TimerStyle": {
+            "$type": "DailyDuty.Data.Graphical.TimerStyle, DailyDuty",
+            "Options": {
+              "$type": "DailyDuty.Data.Graphical.TimerOptions, DailyDuty",
+              "UseShortName": false,
+              "ShowSeconds": true,
+              "CondensedDisplay": false
+            },
+            "BackgroundColor": {
+              "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "ForegroundColor": {
+              "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+              "X": 0.6901961,
+              "Y": 0.14901961,
+              "Z": 0.9254902,
+              "W": 1.0
+            },
+            "TextColor": {
+              "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0,
+              "W": 1.0
+            },
+            "Padding": 5,
+            "Size": 200,
+            "StretchToFit": false
+          }
+        },
+        "LeveAllowance": {
+          "$type": "DailyDuty.Data.SettingsObjects.Timers.TimerSettings, DailyDuty",
+          "Enabled": false,
+          "TimerStyle": {
+            "$type": "DailyDuty.Data.Graphical.TimerStyle, DailyDuty",
+            "Options": {
+              "$type": "DailyDuty.Data.Graphical.TimerOptions, DailyDuty",
+              "UseShortName": false,
+              "ShowSeconds": true,
+              "CondensedDisplay": false
+            },
+            "BackgroundColor": {
+              "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "ForegroundColor": {
+              "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+              "X": 0.6901961,
+              "Y": 0.14901961,
+              "Z": 0.9254902,
+              "W": 1.0
+            },
+            "TextColor": {
+              "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0,
+              "W": 1.0
+            },
+            "Padding": 5,
+            "Size": 200,
+            "StretchToFit": false
+          }
+        }
+      },
+      "ClickThrough": false,
+      "HideInDuty": true,
+      "Open": false,
+      "Opacity": 1.0
     },
-    "ClickThrough": true,
-    "HideInDuty": true,
-    "Open": true,
-    "Opacity": 1.0
+    "Notice": {
+      "$type": "DailyDuty.Data.SettingsObjects.Notice.NoticeSettings, DailyDuty",
+      "NoticeShown": true,
+      "Version": 2
+    }
   },
-  "SettingsWindowSettings": {
-    "$type": "DailyDuty.Data.SettingsObjects.WindowSettings.SettingsWindowSettings, DailyDuty",
-    "ClickThrough": false,
-    "HideInDuty": true,
-    "Open": false,
-    "Opacity": 1.0
-  },
-  "TimersWindowSettings": {
-    "$type": "DailyDuty.Data.SettingsObjects.WindowSettings.TimersWindowSettings, DailyDuty",
-    "HideSeconds": false,
-    "ShortStrings": true,
-    "ClickThrough": true,
-    "HideInDuty": true,
-    "Open": true,
-    "Opacity": 1.0
-  },
-  "DutyFinderOverlaySettings": {
-    "$type": "DailyDuty.Data.SettingsObjects.DutyFinderOverlaySettings, DailyDuty",
-    "Enabled": true,
-    "WondrousTailsOverlayEnabled": false,
-    "DutyRouletteOverlayEnabled": true,
-    "DutyRouletteCompleteColor": {
-      "$type": "System.Numerics.Vector4, System.Private.CoreLib",
-      "X": 0.12941177,
-      "Y": 0.75686276,
-      "Z": 0.0,
-      "W": 1.0
-    },
-    "DutyRouletteIncompleteColor": {
-      "$type": "System.Numerics.Vector4, System.Private.CoreLib",
-      "X": 0.8235294,
-      "Y": 0.16470589,
-      "Z": 0.16862746,
-      "W": 1.0
+  "Addons": {
+    "$type": "DailyDuty.Data.SettingsObjects.AddonSettings, DailyDuty",
+    "DutyFinder": {
+      "$type": "DailyDuty.Data.SettingsObjects.Addons.DutyFinderAddonSettings, DailyDuty",
+      "Enabled": false,
+      "WondrousTailsOverlayEnabled": false,
+      "DutyRouletteOverlayEnabled": false,
+      "DutyRouletteCompleteColor": {
+        "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+        "X": 0.12941177,
+        "Y": 0.75686276,
+        "Z": 0.0,
+        "W": 1.0
+      },
+      "DutyRouletteIncompleteColor": {
+        "$type": "System.Numerics.Vector4, System.Private.CoreLib",
+        "X": 0.8235294,
+        "Y": 0.16470589,
+        "Z": 0.16862746,
+        "W": 1.0
+      }
     }
   },
   "CharacterSettingsMap": {
@@ -160,14 +547,18 @@
       "$type": "DailyDuty.Data.SettingsObjects.CharacterSettings, DailyDuty",
       "CharacterName": "Grillbrick Taylor",
       "BeastTribe": {
-        "$type": "DailyDuty.Data.SettingsObjects.DailySettings.BeastTribeSettings, DailyDuty",
+        "$type": "DailyDuty.Data.SettingsObjects.Daily.BeastTribeSettings, DailyDuty",
+        "NotificationThreshold": 12,
+        "NumberTrackedTribes": 4,
+        "Mode": 1,
         "NextReset": "0001-01-01T00:00:00",
         "Enabled": false,
         "ZoneChangeReminder": false,
         "LoginReminder": false
       },
       "DutyRoulette": {
-        "$type": "DailyDuty.Data.SettingsObjects.DailySettings.DutyRouletteSettings, DailyDuty",
+        "$type": "DailyDuty.Data.SettingsObjects.Daily.DutyRouletteSettings, DailyDuty",
+        "SingleTask": false,
         "TrackedRoulettes": [
           {
             "$type": "DailyDuty.Data.ModuleData.DutyRoulette.TrackedRoulette, DailyDuty",
@@ -184,7 +575,7 @@
           {
             "$type": "DailyDuty.Data.ModuleData.DutyRoulette.TrackedRoulette, DailyDuty",
             "Tracked": false,
-            "Completed": false,
+            "Completed": true,
             "Type": 2
           },
           {
@@ -236,35 +627,37 @@
             "Type": 9
           }
         ],
-        "NextReset": "2022-02-26T15:00:00Z",
+        "NextReset": "2022-03-28T15:00:00Z",
         "Enabled": true,
         "ZoneChangeReminder": false,
         "LoginReminder": false
       },
       "GrandCompany": {
-        "$type": "DailyDuty.Data.SettingsObjects.DailySettings.GrandCompanySettings, DailyDuty",
+        "$type": "DailyDuty.Data.SettingsObjects.Daily.GrandCompanySettings, DailyDuty",
         "NextReset": "0001-01-01T00:00:00",
         "Enabled": false,
         "ZoneChangeReminder": false,
         "LoginReminder": false
       },
-      "Leviquest": {
-        "$type": "DailyDuty.Data.SettingsObjects.DailySettings.LeviquestSettings, DailyDuty",
+      "Levequest": {
+        "$type": "DailyDuty.Data.SettingsObjects.Daily.LevequestSettings, DailyDuty",
+        "WarningThreshold": 97,
+        "AboveThresholdWarning": false,
         "NextReset": "0001-01-01T00:00:00",
         "Enabled": false,
         "ZoneChangeReminder": false,
         "LoginReminder": false
       },
       "MiniCactpot": {
-        "$type": "DailyDuty.Data.SettingsObjects.DailySettings.MiniCactpotSettings, DailyDuty",
+        "$type": "DailyDuty.Data.SettingsObjects.Daily.MiniCactpotSettings, DailyDuty",
         "TicketsRemaining": 3,
-        "NextReset": "2022-02-26T15:00:00Z",
+        "NextReset": "2022-03-28T15:00:00Z",
         "Enabled": true,
         "ZoneChangeReminder": false,
         "LoginReminder": false
       },
       "TreasureMap": {
-        "$type": "DailyDuty.Data.SettingsObjects.DailySettings.TreasureMapSettings, DailyDuty",
+        "$type": "DailyDuty.Data.SettingsObjects.Daily.TreasureMapSettings, DailyDuty",
         "LastMapGathered": "0001-01-01T00:00:00",
         "MinimumMapLevel": 0,
         "NotifyOnAcquisition": false,
@@ -275,51 +668,286 @@
         "LoginReminder": false
       },
       "BlueMageLog": {
-        "$type": "DailyDuty.Data.SettingsObjects.WeeklySettings.BlueMageLogSettings, DailyDuty",
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.BlueMageLogSettings, DailyDuty",
         "NextReset": "0001-01-01T00:00:00",
         "Enabled": false,
         "ZoneChangeReminder": false,
         "LoginReminder": false
       },
       "ChallengeLog": {
-        "$type": "DailyDuty.Data.SettingsObjects.WeeklySettings.ChallengeLogSettings, DailyDuty",
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.ChallengeLogSettings, DailyDuty",
         "NextReset": "0001-01-01T00:00:00",
         "Enabled": false,
         "ZoneChangeReminder": false,
         "LoginReminder": false
       },
       "CustomDelivery": {
-        "$type": "DailyDuty.Data.SettingsObjects.WeeklySettings.CustomDeliverySettings, DailyDuty",
-        "AllowancesRemaining": 12,
-        "NextReset": "2022-03-01T08:00:00Z",
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.CustomDeliverySettings, DailyDuty",
+        "NextReset": "2022-03-29T08:00:00Z",
         "Enabled": false,
         "ZoneChangeReminder": false,
         "LoginReminder": false
       },
       "DomanEnclave": {
-        "$type": "DailyDuty.Data.SettingsObjects.WeeklySettings.DomanEnclaveSettings, DailyDuty",
-        "NextReset": "0001-01-01T00:00:00",
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.DomanEnclaveSettings, DailyDuty",
+        "DonatedThisWeek": 0,
+        "WeeklyAllowance": 0,
+        "NextReset": "2022-03-29T08:00:00Z",
         "Enabled": false,
         "ZoneChangeReminder": false,
         "LoginReminder": false
       },
       "FashionReport": {
-        "$type": "DailyDuty.Data.SettingsObjects.WeeklySettings.FashionReportSettings, DailyDuty",
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.FashionReportSettings, DailyDuty",
         "AllowancesRemaining": 4,
         "HighestWeeklyScore": 0,
         "Mode": 0,
-        "NextReset": "2022-03-01T08:00:00Z",
+        "NextReset": "2022-03-29T08:00:00Z",
         "Enabled": false,
         "ZoneChangeReminder": false,
         "LoginReminder": false
       },
       "HuntMarks": {
-        "$type": "DailyDuty.Data.SettingsObjects.WeeklySettings.HuntMarksSettings, DailyDuty",
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.HuntMarksSettings, DailyDuty",
         "TrackedHunts": [
           {
             "$type": "DailyDuty.Data.ModuleData.HuntMarks.TrackedHunt, DailyDuty",
             "Expansion": 0,
             "Tracked": true,
+            "Obtained": false
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.HuntMarks.TrackedHunt, DailyDuty",
+            "Expansion": 1,
+            "Tracked": false,
+            "Obtained": false
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.HuntMarks.TrackedHunt, DailyDuty",
+            "Expansion": 2,
+            "Tracked": false,
+            "Obtained": false
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.HuntMarks.TrackedHunt, DailyDuty",
+            "Expansion": 3,
+            "Tracked": false,
+            "Obtained": false
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.HuntMarks.TrackedHunt, DailyDuty",
+            "Expansion": 4,
+            "Tracked": false,
+            "Obtained": false
+          }
+        ],
+        "NextReset": "2022-03-29T08:00:00Z",
+        "Enabled": true,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "JumboCactpot": {
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.JumboCactpotSettings, DailyDuty",
+        "CollectedTickets": [],
+        "PlayerRegion": 5,
+        "NextReset": "2022-04-03T02:00:00Z",
+        "Enabled": true,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "MaskedCarnival": {
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.MaskedCarnivalSettings, DailyDuty",
+        "NextReset": "0001-01-01T00:00:00",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "WondrousTails": {
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.WondrousTailsSettings, DailyDuty",
+        "NumPlacedStickers": 0,
+        "InstanceNotifications": false,
+        "RerollNotificationStickers": false,
+        "RerollNotificationTasks": false,
+        "NewBookNotification": false,
+        "CompletionDate": "0001-01-01T00:00:00",
+        "BookCompleteNotification": false,
+        "NextReset": "0001-01-01T00:00:00",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      }
+    },
+    "18014498539523179": {
+      "$type": "DailyDuty.Data.SettingsObjects.CharacterSettings, DailyDuty",
+      "CharacterName": "NameNotSet",
+      "BeastTribe": {
+        "$type": "DailyDuty.Data.SettingsObjects.Daily.BeastTribeSettings, DailyDuty",
+        "NotificationThreshold": 12,
+        "NumberTrackedTribes": 4,
+        "Mode": 1,
+        "NextReset": "0001-01-01T00:00:00",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "DutyRoulette": {
+        "$type": "DailyDuty.Data.SettingsObjects.Daily.DutyRouletteSettings, DailyDuty",
+        "SingleTask": false,
+        "TrackedRoulettes": [
+          {
+            "$type": "DailyDuty.Data.ModuleData.DutyRoulette.TrackedRoulette, DailyDuty",
+            "Tracked": false,
+            "Completed": false,
+            "Type": 5
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.DutyRoulette.TrackedRoulette, DailyDuty",
+            "Tracked": false,
+            "Completed": false,
+            "Type": 8
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.DutyRoulette.TrackedRoulette, DailyDuty",
+            "Tracked": false,
+            "Completed": false,
+            "Type": 2
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.DutyRoulette.TrackedRoulette, DailyDuty",
+            "Tracked": false,
+            "Completed": false,
+            "Type": 1
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.DutyRoulette.TrackedRoulette, DailyDuty",
+            "Tracked": false,
+            "Completed": false,
+            "Type": 6
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.DutyRoulette.TrackedRoulette, DailyDuty",
+            "Tracked": false,
+            "Completed": false,
+            "Type": 3
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.DutyRoulette.TrackedRoulette, DailyDuty",
+            "Tracked": false,
+            "Completed": false,
+            "Type": 4
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.DutyRoulette.TrackedRoulette, DailyDuty",
+            "Tracked": false,
+            "Completed": false,
+            "Type": 15
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.DutyRoulette.TrackedRoulette, DailyDuty",
+            "Tracked": false,
+            "Completed": false,
+            "Type": 17
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.DutyRoulette.TrackedRoulette, DailyDuty",
+            "Tracked": false,
+            "Completed": false,
+            "Type": 7
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.DutyRoulette.TrackedRoulette, DailyDuty",
+            "Tracked": false,
+            "Completed": false,
+            "Type": 9
+          }
+        ],
+        "NextReset": "2022-03-15T15:00:00Z",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "GrandCompany": {
+        "$type": "DailyDuty.Data.SettingsObjects.Daily.GrandCompanySettings, DailyDuty",
+        "NextReset": "0001-01-01T00:00:00",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "Levequest": {
+        "$type": "DailyDuty.Data.SettingsObjects.Daily.LevequestSettings, DailyDuty",
+        "WarningThreshold": 97,
+        "AboveThresholdWarning": false,
+        "NextReset": "0001-01-01T00:00:00",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "MiniCactpot": {
+        "$type": "DailyDuty.Data.SettingsObjects.Daily.MiniCactpotSettings, DailyDuty",
+        "TicketsRemaining": 3,
+        "NextReset": "2022-03-15T15:00:00Z",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "TreasureMap": {
+        "$type": "DailyDuty.Data.SettingsObjects.Daily.TreasureMapSettings, DailyDuty",
+        "LastMapGathered": "0001-01-01T00:00:00",
+        "MinimumMapLevel": 0,
+        "NotifyOnAcquisition": false,
+        "HarvestableMapNotification": false,
+        "NextReset": "0001-01-01T00:00:00",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "BlueMageLog": {
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.BlueMageLogSettings, DailyDuty",
+        "NextReset": "0001-01-01T00:00:00",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "ChallengeLog": {
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.ChallengeLogSettings, DailyDuty",
+        "NextReset": "0001-01-01T00:00:00",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "CustomDelivery": {
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.CustomDeliverySettings, DailyDuty",
+        "NextReset": "2022-03-15T08:00:00Z",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "DomanEnclave": {
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.DomanEnclaveSettings, DailyDuty",
+        "DonatedThisWeek": 0,
+        "WeeklyAllowance": 0,
+        "NextReset": "2022-03-15T08:00:00Z",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "FashionReport": {
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.FashionReportSettings, DailyDuty",
+        "AllowancesRemaining": 4,
+        "HighestWeeklyScore": 0,
+        "Mode": 0,
+        "NextReset": "2022-03-15T08:00:00Z",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "HuntMarks": {
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.HuntMarksSettings, DailyDuty",
+        "TrackedHunts": [
+          {
+            "$type": "DailyDuty.Data.ModuleData.HuntMarks.TrackedHunt, DailyDuty",
+            "Expansion": 0,
+            "Tracked": false,
             "Obtained": true
           },
           {
@@ -347,32 +975,265 @@
             "Obtained": false
           }
         ],
-        "NextReset": "2022-03-01T08:00:00Z",
-        "Enabled": true,
+        "NextReset": "2022-03-15T08:00:00Z",
+        "Enabled": false,
         "ZoneChangeReminder": false,
         "LoginReminder": false
       },
       "JumboCactpot": {
-        "$type": "DailyDuty.Data.SettingsObjects.WeeklySettings.JumboCactpotSettings, DailyDuty",
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.JumboCactpotSettings, DailyDuty",
         "CollectedTickets": [],
         "PlayerRegion": 5,
-        "NextReset": "2022-02-27T02:00:00Z",
-        "Enabled": true,
+        "NextReset": "2022-03-20T02:00:00Z",
+        "Enabled": false,
         "ZoneChangeReminder": false,
         "LoginReminder": false
       },
       "MaskedCarnival": {
-        "$type": "DailyDuty.Data.SettingsObjects.WeeklySettings.MaskedCarnivalSettings, DailyDuty",
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.MaskedCarnivalSettings, DailyDuty",
         "NextReset": "0001-01-01T00:00:00",
         "Enabled": false,
         "ZoneChangeReminder": false,
         "LoginReminder": false
       },
       "WondrousTails": {
-        "$type": "DailyDuty.Data.SettingsObjects.WeeklySettings.WondrousTailsSettings, DailyDuty",
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.WondrousTailsSettings, DailyDuty",
         "NumPlacedStickers": 0,
-        "InstanceStartNotification": false,
-        "InstanceEndNotification": false,
+        "InstanceNotifications": false,
+        "RerollNotificationStickers": false,
+        "RerollNotificationTasks": false,
+        "NewBookNotification": false,
+        "CompletionDate": "0001-01-01T00:00:00",
+        "BookCompleteNotification": false,
+        "NextReset": "0001-01-01T00:00:00",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      }
+    },
+    "18014498568412019": {
+      "$type": "DailyDuty.Data.SettingsObjects.CharacterSettings, DailyDuty",
+      "CharacterName": "Anna Hessin",
+      "BeastTribe": {
+        "$type": "DailyDuty.Data.SettingsObjects.Daily.BeastTribeSettings, DailyDuty",
+        "NotificationThreshold": 12,
+        "NumberTrackedTribes": 4,
+        "Mode": 1,
+        "NextReset": "0001-01-01T00:00:00",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "DutyRoulette": {
+        "$type": "DailyDuty.Data.SettingsObjects.Daily.DutyRouletteSettings, DailyDuty",
+        "SingleTask": false,
+        "TrackedRoulettes": [
+          {
+            "$type": "DailyDuty.Data.ModuleData.DutyRoulette.TrackedRoulette, DailyDuty",
+            "Tracked": false,
+            "Completed": false,
+            "Type": 5
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.DutyRoulette.TrackedRoulette, DailyDuty",
+            "Tracked": false,
+            "Completed": false,
+            "Type": 8
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.DutyRoulette.TrackedRoulette, DailyDuty",
+            "Tracked": false,
+            "Completed": false,
+            "Type": 2
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.DutyRoulette.TrackedRoulette, DailyDuty",
+            "Tracked": false,
+            "Completed": false,
+            "Type": 1
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.DutyRoulette.TrackedRoulette, DailyDuty",
+            "Tracked": false,
+            "Completed": false,
+            "Type": 6
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.DutyRoulette.TrackedRoulette, DailyDuty",
+            "Tracked": false,
+            "Completed": false,
+            "Type": 3
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.DutyRoulette.TrackedRoulette, DailyDuty",
+            "Tracked": false,
+            "Completed": false,
+            "Type": 4
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.DutyRoulette.TrackedRoulette, DailyDuty",
+            "Tracked": false,
+            "Completed": false,
+            "Type": 15
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.DutyRoulette.TrackedRoulette, DailyDuty",
+            "Tracked": false,
+            "Completed": false,
+            "Type": 17
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.DutyRoulette.TrackedRoulette, DailyDuty",
+            "Tracked": false,
+            "Completed": false,
+            "Type": 7
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.DutyRoulette.TrackedRoulette, DailyDuty",
+            "Tracked": false,
+            "Completed": false,
+            "Type": 9
+          }
+        ],
+        "NextReset": "2022-03-13T15:00:00Z",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "GrandCompany": {
+        "$type": "DailyDuty.Data.SettingsObjects.Daily.GrandCompanySettings, DailyDuty",
+        "NextReset": "0001-01-01T00:00:00",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "Levequest": {
+        "$type": "DailyDuty.Data.SettingsObjects.Daily.LevequestSettings, DailyDuty",
+        "WarningThreshold": 97,
+        "AboveThresholdWarning": false,
+        "NextReset": "0001-01-01T00:00:00",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "MiniCactpot": {
+        "$type": "DailyDuty.Data.SettingsObjects.Daily.MiniCactpotSettings, DailyDuty",
+        "TicketsRemaining": 3,
+        "NextReset": "2022-03-13T15:00:00Z",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "TreasureMap": {
+        "$type": "DailyDuty.Data.SettingsObjects.Daily.TreasureMapSettings, DailyDuty",
+        "LastMapGathered": "0001-01-01T00:00:00",
+        "MinimumMapLevel": 0,
+        "NotifyOnAcquisition": false,
+        "HarvestableMapNotification": false,
+        "NextReset": "0001-01-01T00:00:00",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "BlueMageLog": {
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.BlueMageLogSettings, DailyDuty",
+        "NextReset": "0001-01-01T00:00:00",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "ChallengeLog": {
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.ChallengeLogSettings, DailyDuty",
+        "NextReset": "0001-01-01T00:00:00",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "CustomDelivery": {
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.CustomDeliverySettings, DailyDuty",
+        "NextReset": "2022-03-15T08:00:00Z",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "DomanEnclave": {
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.DomanEnclaveSettings, DailyDuty",
+        "DonatedThisWeek": 0,
+        "WeeklyAllowance": 0,
+        "NextReset": "2022-03-15T08:00:00Z",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "FashionReport": {
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.FashionReportSettings, DailyDuty",
+        "AllowancesRemaining": 4,
+        "HighestWeeklyScore": 0,
+        "Mode": 0,
+        "NextReset": "2022-03-15T08:00:00Z",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "HuntMarks": {
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.HuntMarksSettings, DailyDuty",
+        "TrackedHunts": [
+          {
+            "$type": "DailyDuty.Data.ModuleData.HuntMarks.TrackedHunt, DailyDuty",
+            "Expansion": 0,
+            "Tracked": false,
+            "Obtained": false
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.HuntMarks.TrackedHunt, DailyDuty",
+            "Expansion": 1,
+            "Tracked": false,
+            "Obtained": false
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.HuntMarks.TrackedHunt, DailyDuty",
+            "Expansion": 2,
+            "Tracked": false,
+            "Obtained": false
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.HuntMarks.TrackedHunt, DailyDuty",
+            "Expansion": 3,
+            "Tracked": false,
+            "Obtained": false
+          },
+          {
+            "$type": "DailyDuty.Data.ModuleData.HuntMarks.TrackedHunt, DailyDuty",
+            "Expansion": 4,
+            "Tracked": false,
+            "Obtained": false
+          }
+        ],
+        "NextReset": "2022-03-15T08:00:00Z",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "JumboCactpot": {
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.JumboCactpotSettings, DailyDuty",
+        "CollectedTickets": [],
+        "PlayerRegion": 5,
+        "NextReset": "2022-03-20T02:00:00Z",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "MaskedCarnival": {
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.MaskedCarnivalSettings, DailyDuty",
+        "NextReset": "0001-01-01T00:00:00",
+        "Enabled": false,
+        "ZoneChangeReminder": false,
+        "LoginReminder": false
+      },
+      "WondrousTails": {
+        "$type": "DailyDuty.Data.SettingsObjects.Weekly.WondrousTailsSettings, DailyDuty",
+        "NumPlacedStickers": 0,
+        "InstanceNotifications": false,
         "RerollNotificationStickers": false,
         "RerollNotificationTasks": false,
         "NewBookNotification": false,

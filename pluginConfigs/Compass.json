@@ -6,11 +6,11 @@
   "ShowWeatherIconBorder": true,
   "ShowDistanceToTarget": true,
   "AreaMapMaxDistance": 360.0,
-  "DistanceToTargetPrefix": "",
-  "DistanceToTargetSuffix": " yalm to target",
-  "ImGuiCompassScale": 1.0,
+  "DistanceToTargetPrefix": "target: ",
+  "DistanceToTargetSuffix": "",
+  "ImGuiCompassScale": 0.74,
   "ImGuiCompassBackground": 2,
-  "ImGuiCompassEnableBackground": true,
+  "ImGuiCompassEnableBackground": false,
   "ImGuiBackgroundColour": {
     "$type": "System.Numerics.Vector4, System.Private.CoreLib",
     "X": 0.2,
@@ -38,28 +38,28 @@
   "ImGuiCompassBackgroundLineOffset": 0,
   "ImGuiCompassPosition": {
     "$type": "System.Numerics.Vector2, System.Private.CoreLib",
-    "X": 0.0,
-    "Y": 0.0
+    "X": 387.0,
+    "Y": 42.0
   },
   "ImGuiCompassWidth": 250.0,
   "ImGuiCompassReverseMaskPercentage": 1.0,
   "ImGuiCompassEnableCenterMarker": true,
   "ImGuiCompassFlipCentreMarker": false,
-  "ImGuiCompassCentreMarkerOffset": 20,
-  "ImGuiCompassCardinalsOffset": 0,
+  "ImGuiCompassCentreMarkerOffset": 35,
+  "ImGuiCompassCardinalsOffset": -27,
   "ImGuiCompassWeatherIconOffset": {
     "$type": "System.Numerics.Vector2, System.Private.CoreLib",
     "X": -20.0,
     "Y": -28.0
   },
   "ImGuiCompassWeatherIconScale": 1.0,
-  "ImGuiCompassDistanceToTargetScale": 1.75,
-  "ImGuiCompassMinimumIconScaleFactor": 0.2,
+  "ImGuiCompassDistanceToTargetScale": 1.18,
+  "ImGuiCompassMinimumIconScaleFactor": 0.26,
   "ImGuiCompassMinimumIconScaleFactorAreaMap": 0.0,
   "ImGuiCompassDistanceToTargetOffset": {
     "$type": "System.Numerics.Vector2, System.Private.CoreLib",
-    "X": -60.0,
-    "Y": 20.0
+    "X": -55.0,
+    "Y": 30.0
   },
   "ImGuiCompassDistanceToTargetColour": {
     "$type": "System.Numerics.Vector4, System.Private.CoreLib",
@@ -71,8 +71,8 @@
   "ImGuiCompassDistanceToTargetMouseOverPrio": true,
   "ImGuiCompassEnable": true,
   "ShouldHideOnUiObjectSerializer": [
-    false,
-    false,
+    true,
+    true,
     false,
     false,
     false,
@@ -125,8 +125,12 @@
     false,
     false
   ],
-  "FilteredIconIds": [],
-  "HideInCombat": false,
+  "FilteredIconIds": [
+    71021,
+    71022,
+    71111
+  ],
+  "HideInCombat": true,
   "HideInPvPMaps": false,
   "HideInInstances": false,
   "Version": 0

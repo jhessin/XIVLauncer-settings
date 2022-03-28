@@ -1,0 +1,38 @@
+{
+  "Disabled": false,
+  "Testing": false,
+  "InstalledFromUrl": null,
+  "IsThirdParty": false,
+  "Author": "Critical_Impact",
+  "Name": "Inventory Tools",
+  "Punchline": "Clean up your sloppppy inventories.",
+  "Description": "Adds in a window that allows for the searching and filtering of specific items across inventories. Adds visualisation in game to see where your items should go.",
+  "Changelog": "Updated XivCommon dependency to latest version\r\nFixed issue with tooltips causing lag when control or corresponding gamepad button pressed\r\nDon't highlight empty slots when using inverted highlighting\r\nAllow for tab and item highlighting to be inverted separately\r\nTrack equipped items and armory chest items(no highlighting yet, wanted to get bug fixes out this is a bonus)",
+  "Tags": [
+    "Inventory",
+    "Sorting",
+    "Filtering"
+  ],
+  "CategoryTags": null,
+  "IsHide": false,
+  "InternalName": "InventoryTools",
+  "AssemblyVersion": "1.0.0.11",
+  "TestingAssemblyVersion": "1.0.0.11",
+  "IsTestingExclusive": false,
+  "RepoUrl": "https://github.com/Critical-Impact/InventoryTools",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 5,
+  "DownloadCount": 17539,
+  "LastUpdate": 1643461425,
+  "DownloadLinkInstall": "https://kamori.goats.dev/Plugin/Download/InventoryTools?isUpdate=False&isTesting=False&branch=api5",
+  "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api5/InventoryTools/plugins/latest.zip",
+  "DownloadLinkTesting": "https://kamori.goats.dev/Plugin/Download/InventoryTools?isUpdate=False&isTesting=True&branch=api5",
+  "LoadPriority": 0,
+  "ImageUrls": [
+    "https://raw.githubusercontent.com/Critical-Impact/InventoryTools/main/InventoryTools/Images/banner1.png"
+  ],
+  "IconUrl": "https://raw.githubusercontent.com/Critical-Impact/InventoryTools/main/InventoryTools/Images/icon.png",
+  "AcceptsFeedback": true,
+  "FeedbackMessage": null,
+  "FeedbackWebhook": null
+}

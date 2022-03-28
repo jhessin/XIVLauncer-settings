@@ -1,0 +1,16 @@
+{
+  "$type": "QuestMap.Configuration, Quest Map",
+  "ShowCompleted": false,
+  "ShowSeasonal": false,
+  "ShowArrowheads": true,
+  "CondenseMsq": true,
+  "ShowRedundantArrows": false,
+  "EmoteVis": 0,
+  "ItemVis": 0,
+  "MinionVis": 0,
+  "ActionsVis": 0,
+  "InstanceVis": 0,
+  "TribeVis": 0,
+  "JobVis": 0,
+  "Version": 1
+}

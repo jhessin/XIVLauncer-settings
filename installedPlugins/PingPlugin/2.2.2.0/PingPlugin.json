@@ -1,0 +1,39 @@
+{
+  "Disabled": false,
+  "Testing": false,
+  "InstalledFromUrl": null,
+  "IsThirdParty": false,
+  "Author": "karashiiro",
+  "Name": "PingPlugin",
+  "Punchline": null,
+  "Description": "A ping display plugin for Dalamud.",
+  "Changelog": "- Possible fix for IP address check failure",
+  "Tags": [
+    "ping",
+    "monitor",
+    "utility",
+    "tool"
+  ],
+  "CategoryTags": null,
+  "IsHide": false,
+  "InternalName": "PingPlugin",
+  "AssemblyVersion": "2.2.2.0",
+  "TestingAssemblyVersion": "1.10.0.0",
+  "IsTestingExclusive": false,
+  "RepoUrl": "https://github.com/karashiiro/PingPlugin",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 5,
+  "DownloadCount": 318405,
+  "LastUpdate": 1644948898,
+  "DownloadLinkInstall": "https://kamori.goats.dev/Plugin/Download/PingPlugin?isUpdate=False&isTesting=False&branch=api5",
+  "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api5/PingPlugin/plugins/latest.zip",
+  "DownloadLinkTesting": "https://kamori.goats.dev/Plugin/Download/PingPlugin?isUpdate=False&isTesting=True&branch=api5",
+  "LoadPriority": 0,
+  "ImageUrls": [
+    "https://raw.githubusercontent.com/karashiiro/PingPlugin/main/Assets/image1.png"
+  ],
+  "IconUrl": "https://raw.githubusercontent.com/karashiiro/PingPlugin/main/Assets/icon.png",
+  "AcceptsFeedback": true,
+  "FeedbackMessage": null,
+  "FeedbackWebhook": null
+}

@@ -1409,9 +1409,108 @@
           "sL": [
             {
               "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "Inventory Tool",
+              "t": 0,
+              "c": "/inv",
+              "k": 0,
+              "kP": false,
+              "sL": null,
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.0,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": false,
+              "cC": 1,
+              "cSp": [
+                8,
+                4
+              ],
+              "cS": 1.0,
+              "cF": 1.0,
+              "cNB": false,
+              "cH": false,
+              "cHC": false,
+              "_i": 0
+            },
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
               "n": "Items",
               "t": 0,
               "c": "/xlitem",
+              "k": 0,
+              "kP": false,
+              "sL": null,
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.0,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": false,
+              "cC": 1,
+              "cSp": [
+                8,
+                4
+              ],
+              "cS": 1.0,
+              "cF": 1.0,
+              "cNB": false,
+              "cH": false,
+              "cHC": false,
+              "_i": 0
+            },
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "Quests",
+              "t": 0,
+              "c": "/quests",
+              "k": 0,
+              "kP": false,
+              "sL": null,
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.0,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": false,
+              "cC": 1,
+              "cSp": [
+                8,
+                4
+              ],
+              "cS": 1.0,
+              "cF": 1.0,
+              "cNB": false,
+              "cH": false,
+              "cHC": false,
+              "_i": 0
+            },
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "Sonar",
+              "t": 0,
+              "c": "/sonar",
               "k": 0,
               "kP": false,
               "sL": null,
@@ -1968,6 +2067,39 @@
               "cH": false,
               "cHC": false,
               "_i": 0
+            },
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "Rez Pls",
+              "t": 0,
+              "c": "/rezpls",
+              "k": 0,
+              "kP": false,
+              "sL": null,
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.0,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": false,
+              "cC": 1,
+              "cSp": [
+                8,
+                4
+              ],
+              "cS": 1.0,
+              "cF": 1.0,
+              "cNB": false,
+              "cH": false,
+              "cHC": false,
+              "_i": 0
             }
           ],
           "m": 0,
@@ -2107,6 +2239,39 @@
               "n": "Daily Duties",
               "t": 0,
               "c": "/dd",
+              "k": 0,
+              "kP": false,
+              "sL": null,
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.0,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": false,
+              "cC": 1,
+              "cSp": [
+                8,
+                4
+              ],
+              "cS": 1.0,
+              "cF": 1.0,
+              "cNB": false,
+              "cH": false,
+              "cHC": false,
+              "_i": 0
+            },
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "Sonar Config",
+              "t": 0,
+              "c": "/sonarcfg",
               "k": 0,
               "kP": false,
               "sL": null,
@@ -2794,6 +2959,39 @@
               "cH": false,
               "cHC": false,
               "_i": 0
+            },
+            {
+              "$type": "QoLBar.ShCfg, QoLBar",
+              "n": "Wotsit",
+              "t": 0,
+              "c": "/wotsit",
+              "k": 0,
+              "kP": false,
+              "sL": null,
+              "m": 0,
+              "cl": 4294967295,
+              "clA": 0,
+              "iZ": 1.0,
+              "iO": [
+                0.0,
+                0.0
+              ],
+              "iR": 0.0,
+              "cdA": 0,
+              "cdS": 0,
+              "cW": 140,
+              "cSO": false,
+              "cC": 1,
+              "cSp": [
+                8,
+                4
+              ],
+              "cS": 1.0,
+              "cF": 1.0,
+              "cNB": false,
+              "cH": false,
+              "cHC": false,
+              "_i": 0
             }
           ],
           "m": 0,
@@ -3209,16 +3407,17 @@
       "c": 0
     }
   ],
-  "ConditionSets": [
+  "CndSetCfgs": [
     {
-      "$type": "QoLBar.DisplayConditionSet, QoLBar",
-      "Name": "Crafting",
-      "Conditions": [
+      "$type": "QoLBar.CndSetCfg, QoLBar",
+      "n": "Crafting",
+      "c": [
         {
-          "$type": "QoLBar.DisplayCondition, QoLBar",
-          "Type": 1,
-          "Condition": 5,
-          "Arg": 0
+          "$type": "QoLBar.CndCfg, QoLBar",
+          "i": "cf",
+          "a": 5,
+          "n": false,
+          "o": 0
         }
       ]
     }
@@ -3240,6 +3439,6 @@
   "PiesReadjustMouse": false,
   "UsePenumbra": false,
   "FontSize": 32.0,
-  "PluginVersion": "2.2.1.2",
+  "PluginVersion": "2.3.0.0",
   "Version": 1
 }

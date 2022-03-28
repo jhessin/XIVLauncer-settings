@@ -25,5 +25,8 @@
   "CurrentAccountId": "jhessin-True-False",
   "AutologinEnabled": "true",
   "HasComplainedAboutAdmin": "true",
+  "TreatNonZeroExitCodeAsFailure": "false",
+  "ExitLauncherAfterGameExit": "true",
+  "IsFt": "false",
   "PatchPath": "C:\\Users\\jhess\\AppData\\Roaming\\XIVLauncher\\patches"
 }

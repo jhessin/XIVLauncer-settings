@@ -2,10 +2,10 @@
   "$type": "Tourist.Configuration, Tourist",
   "Version": 1,
   "ShowFinished": false,
-  "ShowUnavailable": false,
-  "ShowArrVistas": false,
+  "ShowUnavailable": true,
+  "ShowArrVistas": true,
   "OnlyShowCurrentZone": true,
   "ShowTimeUntilAvailable": true,
   "ShowTimeLeft": true,
-  "SortMode": 0
+  "SortMode": 1
 }

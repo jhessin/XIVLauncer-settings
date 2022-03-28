@@ -1,0 +1,362 @@
+[
+  {
+    "Name": "80**",
+    "Description": "Contains neo-ishgardian / aesthete crafting nodes.",
+    "Nodes": [
+      {
+        "Annotation": "",
+        "ItemId": 30485,
+        "PreferLocation": 0,
+        "StartMinute": 0,
+        "EndMinute": 120,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 30486,
+        "PreferLocation": 0,
+        "StartMinute": 120,
+        "EndMinute": 240,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 29974,
+        "PreferLocation": 0,
+        "StartMinute": 240,
+        "EndMinute": 360,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 29970,
+        "PreferLocation": 0,
+        "StartMinute": 360,
+        "EndMinute": 480,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 29972,
+        "PreferLocation": 0,
+        "StartMinute": 480,
+        "EndMinute": 600,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 29976,
+        "PreferLocation": 0,
+        "StartMinute": 600,
+        "EndMinute": 720,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 30485,
+        "PreferLocation": 0,
+        "StartMinute": 720,
+        "EndMinute": 840,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 30486,
+        "PreferLocation": 0,
+        "StartMinute": 840,
+        "EndMinute": 960,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 29974,
+        "PreferLocation": 0,
+        "StartMinute": 960,
+        "EndMinute": 1080,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 29970,
+        "PreferLocation": 0,
+        "StartMinute": 1080,
+        "EndMinute": 1200,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 29972,
+        "PreferLocation": 0,
+        "StartMinute": 1200,
+        "EndMinute": 1320,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 29976,
+        "PreferLocation": 0,
+        "StartMinute": 1320,
+        "EndMinute": 0,
+        "Type": "Gatherable"
+      }
+    ]
+  },
+  {
+    "Name": "80***",
+    "Description": "Contains exarchic crafting nodes.",
+    "Nodes": [
+      {
+        "Annotation": "",
+        "ItemId": 32954,
+        "PreferLocation": 0,
+        "StartMinute": 0,
+        "EndMinute": 120,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 32952,
+        "PreferLocation": 0,
+        "StartMinute": 120,
+        "EndMinute": 240,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 32955,
+        "PreferLocation": 0,
+        "StartMinute": 240,
+        "EndMinute": 360,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 32950,
+        "PreferLocation": 0,
+        "StartMinute": 360,
+        "EndMinute": 480,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 32951,
+        "PreferLocation": 0,
+        "StartMinute": 480,
+        "EndMinute": 600,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 32953,
+        "PreferLocation": 0,
+        "StartMinute": 600,
+        "EndMinute": 720,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 32954,
+        "PreferLocation": 0,
+        "StartMinute": 720,
+        "EndMinute": 840,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 32952,
+        "PreferLocation": 0,
+        "StartMinute": 840,
+        "EndMinute": 960,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 32955,
+        "PreferLocation": 0,
+        "StartMinute": 960,
+        "EndMinute": 1080,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 32950,
+        "PreferLocation": 0,
+        "StartMinute": 1080,
+        "EndMinute": 1200,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 32951,
+        "PreferLocation": 0,
+        "StartMinute": 1200,
+        "EndMinute": 1320,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 32953,
+        "PreferLocation": 0,
+        "StartMinute": 1320,
+        "EndMinute": 0,
+        "Type": "Gatherable"
+      }
+    ]
+  },
+  {
+    "Name": "90*",
+    "Description": "Contains classical crafting nodes.",
+    "Nodes": [
+      {
+        "Annotation": "",
+        "ItemId": 36216,
+        "PreferLocation": 0,
+        "StartMinute": 0,
+        "EndMinute": 120,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 36167,
+        "PreferLocation": 0,
+        "StartMinute": 120,
+        "EndMinute": 240,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 36179,
+        "PreferLocation": 0,
+        "StartMinute": 240,
+        "EndMinute": 360,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 36195,
+        "PreferLocation": 0,
+        "StartMinute": 360,
+        "EndMinute": 480,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 36207,
+        "PreferLocation": 0,
+        "StartMinute": 480,
+        "EndMinute": 600,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 36217,
+        "PreferLocation": 0,
+        "StartMinute": 600,
+        "EndMinute": 720,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 36216,
+        "PreferLocation": 0,
+        "StartMinute": 720,
+        "EndMinute": 840,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 36167,
+        "PreferLocation": 0,
+        "StartMinute": 840,
+        "EndMinute": 960,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 36179,
+        "PreferLocation": 0,
+        "StartMinute": 960,
+        "EndMinute": 1080,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 36195,
+        "PreferLocation": 0,
+        "StartMinute": 1080,
+        "EndMinute": 1200,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 36207,
+        "PreferLocation": 0,
+        "StartMinute": 1200,
+        "EndMinute": 1320,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 36217,
+        "PreferLocation": 0,
+        "StartMinute": 1320,
+        "EndMinute": 0,
+        "Type": "Gatherable"
+      }
+    ]
+  },
+  {
+    "Name": "90sand",
+    "Description": "Contains the nodes for the group of 90 aethersands.",
+    "Nodes": [
+      {
+        "Annotation": "",
+        "ItemId": 36285,
+        "PreferLocation": 0,
+        "StartMinute": 0,
+        "EndMinute": 240,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 36287,
+        "PreferLocation": 0,
+        "StartMinute": 480,
+        "EndMinute": 720,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 36288,
+        "PreferLocation": 0,
+        "StartMinute": 720,
+        "EndMinute": 960,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 36286,
+        "PreferLocation": 0,
+        "StartMinute": 1200,
+        "EndMinute": 0,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 36287,
+        "PreferLocation": 0,
+        "StartMinute": 240,
+        "EndMinute": 480,
+        "Type": "Gatherable"
+      },
+      {
+        "Annotation": "",
+        "ItemId": 36286,
+        "PreferLocation": 0,
+        "StartMinute": 960,
+        "EndMinute": 1200,
+        "Type": "Gatherable"
+      }
+    ]
+  }
+]

@@ -133,11 +133,11 @@
         "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
         "48": 5,
         "53": 3,
-        "43": 3,
+        "43": 4,
         "66": 1
       },
-      "NumCoins": 2568,
-      "NumWins": 22,
+      "NumCoins": 2678,
+      "NumWins": 23,
       "NumDraws": 3,
       "NumLosses": 1
     },
@@ -377,6 +377,30 @@
       },
       "NumCoins": 94,
       "NumWins": 2,
+      "NumDraws": 0,
+      "NumLosses": 0
+    },
+    "2293776": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "33": 2,
+        "21": 1
+      },
+      "NumCoins": 245,
+      "NumWins": 5,
+      "NumDraws": 0,
+      "NumLosses": 0
+    },
+    "2293792": {
+      "$type": "TriadBuddyPlugin.Configuration+NpcStatInfo, TriadBuddy",
+      "Cards": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "49": 2,
+        "56": 1
+      },
+      "NumCoins": 812,
+      "NumWins": 7,
       "NumDraws": 0,
       "NumLosses": 0
     }

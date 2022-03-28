@@ -1,0 +1,36 @@
+{
+  "Disabled": false,
+  "Testing": false,
+  "InstalledFromUrl": null,
+  "IsThirdParty": false,
+  "Author": "MidoriKami",
+  "Name": "DailyDuty",
+  "Punchline": "Easily Track Daily and Weekly tasks.",
+  "Description": "Automatically track and complete many daily and weekly tasks.",
+  "Changelog": "Major Version Jump! Big new features.\r\n\r\nDoman Enclave, and Custom Delivery now use internal game data for tracking!\r\nValues will be correct even if the plugin was disabled for a few days as you completed tasks.\r\n\r\nThe Doman Enclave module requires visiting the enclave ***once*** to get initialized properly (per character).\r\n\r\nAdded Super Secret Special things that will be around for the start of next month ;)\r\n\r\nMisc Changes:\r\nFixed: No Clickthrough not actually being no clickthrough and blocking user input\r\nFixed: Display message in timers window when no timers are enabled\r\nFixed: Typo in Leviquest module. **This will reset your Leviquest settings**\r\nAdded: Commands to show and hide todo and timers window `/dd todo` and `/dd timers` respectively",
+  "Tags": [
+    "utility"
+  ],
+  "CategoryTags": [
+    "utility"
+  ],
+  "IsHide": false,
+  "InternalName": "DailyDuty",
+  "AssemblyVersion": "1.3.0.2",
+  "TestingAssemblyVersion": null,
+  "IsTestingExclusive": false,
+  "RepoUrl": "https://github.com/MidoriKami/DailyDuty",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 5,
+  "DownloadCount": 103598,
+  "LastUpdate": 1648099006,
+  "DownloadLinkInstall": "https://kamori.goats.dev/Plugin/Download/DailyDuty?isUpdate=False&isTesting=False&branch=api5",
+  "DownloadLinkUpdate": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api5/plugins/DailyDuty/latest.zip",
+  "DownloadLinkTesting": "https://kamori.goats.dev/Plugin/Download/DailyDuty?isUpdate=False&isTesting=True&branch=api5",
+  "LoadPriority": 0,
+  "ImageUrls": null,
+  "IconUrl": null,
+  "AcceptsFeedback": true,
+  "FeedbackMessage": null,
+  "FeedbackWebhook": null
+}
